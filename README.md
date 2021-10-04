@@ -1,0 +1,1 @@
+A hotel management system for CS 348.
