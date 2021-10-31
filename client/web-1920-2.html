@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1299, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/web-1920-2.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="web-1920-2" />
+    <form class="web-1920-2 screen" name="form6" action="form6" method="post">
+      <a href="web-1920-1.html">
+        <div class="core-component-button-standard-07RRWM">
+          <div class="background-xd1hzV"></div>
+          <div class="exit-xd1hzV sourcesanspro-semi-bold-white-16px">Exit</div>
+        </div></a
+      >
+      <h1 class="title-07RRWM sourcesanspro-semi-bold-dove-gray-50px">Management Menu</h1>
+      <img class="black-copy-07RRWM" src="img/black---copy-1@1x.png" />
+      <a href="web-1920-4.html">
+        <div class="signup-buton-07RRWM">
+          <div class="rectangle-148475-sLgITZ border-2px-blueberry"></div>
+          <div class="hover-sLgITZ smart-layers-pointers hidden"></div>
+          <div class="bill-generation-check-out-sLgITZ sourcesanspro-normal-white-18px">
+            Bill Generation / Check Out
+          </div>
+        </div></a
+      ><a href="web-1920-6.html">
+        <div class="signup-buton-keAnDz">
+          <div class="rectangle-148475-9Wcr96 border-2px-blueberry"></div>
+          <div class="hover-9Wcr96 smart-layers-pointers hidden"></div>
+          <div class="create-a-reservation-9Wcr96 sourcesanspro-normal-white-18px">Create a Reservation</div>
+        </div></a
+      ><a href="web-1920-8.html">
+        <div class="signup-buton-A1emAz">
+          <div class="rectangle-148475-zE2dcm border-2px-blueberry"></div>
+          <div class="hover-zE2dcm smart-layers-pointers hidden"></div>
+          <div class="lookup-room-zE2dcm sourcesanspro-normal-white-18px">Lookup Room</div>
+        </div></a
+      ><a href="web-1920-9.html">
+        <div class="signup-buton-0jfHor">
+          <div class="rectangle-148475-Zp6ZFx border-2px-blueberry"></div>
+          <div class="hover-Zp6ZFx smart-layers-pointers hidden"></div>
+          <div class="lookup-reservation-Zp6ZFx sourcesanspro-normal-white-18px">Lookup Reservation</div>
+        </div></a
+      ><a href="web-1920-10.html">
+        <div class="signup-buton-iVjEg0">
+          <div class="rectangle-148475-FVjs7m border-2px-blueberry"></div>
+          <div class="hover-FVjs7m smart-layers-pointers hidden"></div>
+          <div class="lookup-customers-FVjs7m sourcesanspro-normal-white-18px">Lookup Customers</div>
+        </div></a
+      >
+    </form>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

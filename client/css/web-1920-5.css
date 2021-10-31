@@ -1,0 +1,480 @@
+/* screen - web-1920-5 */
+
+.web-1920-5 {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1485px;
+  min-width: 1299px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.web-1920-5 .bill-id-eqxx8P {
+  background-color: transparent;
+  color: var(--dove-gray);
+  font-family: var(--font-family-tahoma-regular);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+  height: 62px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  position: absolute;
+  right: calc(38.80% - 59px);
+  text-align: left;
+  top: 84px;
+  white-space: nowrap;
+  width: 152px;
+}
+
+.web-1920-5 .group-21-eqxx8P {
+  background-color: transparent;
+  height: 417px;
+  left: 110px;
+  position: absolute;
+  top: calc(22.57% - 94px);
+  width: 423px;
+}
+
+.web-1920-5 .customer-information-Eud8px {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 226px;
+}
+
+.web-1920-5 .group-24-Eud8px {
+  background-color: transparent;
+  height: calc(100.00% - 44px);
+  left: 0px;
+  position: absolute;
+  top: 44px;
+  width: 100%;
+}
+
+.web-1920-5 .path-1-P5OBUv {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.web-1920-5 .name-P5OBUv {
+  background-color: transparent;
+  height: 26px;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 8px;
+  white-space: nowrap;
+  width: 60px;
+}
+
+.web-1920-5 .email-P5OBUv {
+  background-color: transparent;
+  height: 26px;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 50px;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.web-1920-5 .phone-number-P5OBUv {
+  background-color: transparent;
+  height: 26px;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(26.50% - 7px);
+  white-space: nowrap;
+  width: 140px;
+}
+
+.web-1920-5 .street-P5OBUv {
+  background-color: transparent;
+  height: 26px;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(38.60% - 10px);
+  white-space: nowrap;
+  width: 62px;
+}
+
+.web-1920-5 .state-P5OBUv {
+  background-color: transparent;
+  bottom: calc(49.30% - 13px);
+  height: 26px;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 61px;
+}
+
+.web-1920-5 .country-P5OBUv {
+  background-color: transparent;
+  bottom: calc(37.20% - 10px);
+  height: 26px;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 84px;
+}
+
+.web-1920-5 .id-number-P5OBUv {
+  background-color: transparent;
+  bottom: calc(25.10% - 7px);
+  height: 26px;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 106px;
+}
+
+.web-1920-5 .id-type-P5OBUv {
+  background-color: transparent;
+  bottom: 45px;
+  height: 26px;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 80px;
+}
+
+.web-1920-5 .credit-card-number-0000-P5OBUv {
+  background-color: transparent;
+  bottom: 3px;
+  height: 26px;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 51px);
+}
+
+.web-1920-5 .date-eqxx8P {
+  background-color: transparent;
+  height: 26px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  right: calc(35.95% - 18px);
+  text-align: left;
+  top: 163px;
+  white-space: nowrap;
+  width: 50px;
+}
+
+.web-1920-5 .repeat-grid-8-eqxx8P {
+  background-color: transparent;
+  height: 210px;
+  position: absolute;
+  right: calc(22.83% - 97px);
+  top: calc(18.90% - 40px);
+  width: 423px;
+}
+
+.web-1920-5 .group-3-KECsSf {
+  background-color: transparent;
+  height: 212px;
+  left: 0px;
+  position: relative;
+  top: -2px;
+  width: 423px;
+}
+
+.web-1920-5 .reservation-details-kDs371 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.web-1920-5 .group-4-kDs371 {
+  background-color: transparent;
+  height: 168px;
+  left: 0px;
+  position: absolute;
+  top: 44px;
+  width: 423px;
+}
+
+.web-1920-5 .rectangle-148477-lwl74o {
+  background-color: var(--white);
+  border: 1px solid var(--dove-gray);
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.web-1920-5 .room-number-lwl74o {
+  background-color: transparent;
+  height: 26px;
+  left: 12px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: 136px;
+}
+
+.web-1920-5 .room-type-lwl74o {
+  background-color: transparent;
+  height: 26px;
+  left: 12px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(36.62% - 10px);
+  white-space: nowrap;
+  width: 109px;
+}
+
+.web-1920-5 .check-in-date-lwl74o {
+  background-color: transparent;
+  bottom: calc(33.80% - 9px);
+  height: 26px;
+  left: 12px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 124px;
+}
+
+.web-1920-5 .check-out-date-lwl74o {
+  background-color: transparent;
+  bottom: 6px;
+  height: 26px;
+  left: 12px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 144px;
+}
+
+.web-1920-5 .group-3-eqxx8P {
+  background-color: transparent;
+  bottom: calc(40.31% - 102px);
+  height: 252px;
+  left: 105px;
+  position: absolute;
+  width: 994px;
+}
+
+.web-1920-5 .rectangle-148478-Ns69eJ {
+  background-color: var(--white);
+  border: 1px solid var(--dove-gray);
+  height: calc(100.00% - 38px);
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 100%;
+}
+
+.web-1920-5 .charges-Ns69eJ {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 84px;
+}
+
+.web-1920-5 .group-1-Ns69eJ {
+  background-color: transparent;
+  height: 110px;
+  left: 14px;
+  position: absolute;
+  top: calc(29.58% - 33px);
+  width: 172px;
+}
+
+.web-1920-5 .room-charge-2DPvqa {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 129px;
+}
+
+.web-1920-5 .bar-charge-2DPvqa {
+  background-color: transparent;
+  bottom: calc(46.43% - 12px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 107px;
+}
+
+.web-1920-5 .additional-charges-2DPvqa {
+  background-color: transparent;
+  bottom: -4px;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.web-1920-5 .group-2-Ns69eJ {
+  background-color: transparent;
+  bottom: 14px;
+  height: 67px;
+  left: 14px;
+  position: absolute;
+  width: 67px;
+}
+
+.web-1920-5 .tax-s80zly {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 41px;
+}
+
+.web-1920-5 .total-s80zly {
+  background-color: transparent;
+  bottom: -4px;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.web-1920-5 .signup-buton-eqxx8P {
+  background-color: transparent;
+  cursor: pointer;
+  height: 50px;
+  position: absolute;
+  right: calc(22.65% - 96px);
+  top: calc(33.66% - 17px);
+  width: 425px;
+}
+
+.web-1920-5 .rectangle-148475-W7ZzbU {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.web-1920-5 .hover-W7ZzbU {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.web-1920-5 .hover-W7ZzbU:hover {
+  opacity: 1;
+}
+
+.web-1920-5 .check-out-customer-W7ZzbU {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.81% - 78px);
+  text-align: center;
+  white-space: nowrap;
+  width: 156px;
+}
+
+.web-1920-5 .black-copy-eqxx8P {
+  background-color: transparent;
+  height: 149px;
+  left: 68px;
+  object-fit: cover;
+  position: absolute;
+  top: 36px;
+  width: 335px;
+}

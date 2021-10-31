@@ -1,0 +1,137 @@
+/* screen - web-1920-1 */
+
+.web-1920-1 {
+  background-color: #bce0fd;
+  height: 1080px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.web-1920-1 .group-33-HlzXCz {
+  background-color: transparent;
+  height: 1200px;
+  left: 360px;
+  position: absolute;
+  top: -239px;
+  width: 1200px;
+}
+
+.web-1920-1 .star-hotel-logostransparent-L2rMwx {
+  background-color: transparent;
+  height: 105.00%;
+  left: -2.50%;
+  object-fit: cover;
+  position: absolute;
+  top: -1.67%;
+  width: 105.00%;
+}
+
+.web-1920-1 .welcome-to-the-he-button-below-L2rMwx {
+  background-color: transparent;
+  bottom: calc(27.67% - 11px);
+  color: var(--dove-gray);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+  height: 38px;
+  left: calc(49.74% - 306px);
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 615px;
+}
+
+.web-1920-1 .group-20-L2rMwx {
+  background-color: transparent;
+  bottom: calc(18.32% - 10px);
+  height: 54px;
+  left: calc(43.71% - 149px);
+  position: absolute;
+  width: 342px;
+}
+
+.web-1920-1 .rectangle-50-9xV5nb {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.web-1920-1 .employee-id-9xV5nb {
+  background-color: transparent;
+  border: 0;
+  bottom: calc(40.62% - 9px);
+  height: 22px;
+  left: 7px;
+  letter-spacing: 0.05px;
+  line-height: 24px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 17px);
+}
+
+.web-1920-1 .employee-id-9xV5nb::placeholder {
+  color: #70707099;
+}
+
+.web-1920-1 .signup-buton-HlzXCz {
+  background-color: transparent;
+  cursor: pointer;
+  height: 50px;
+  left: 1101px;
+  position: absolute;
+  top: 699px;
+  width: 111px;
+}
+
+.web-1920-1 .rectangle-148475-Gxk4eD {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.web-1920-1 .hover-Gxk4eD {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.web-1920-1 .hover-Gxk4eD:hover {
+  opacity: 1;
+}
+
+.web-1920-1 .login-Gxk4eD {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(47.76% - 21px);
+  text-align: center;
+  white-space: nowrap;
+  width: 44px;
+}

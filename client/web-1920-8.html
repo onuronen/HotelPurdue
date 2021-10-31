@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1299, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/web-1920-8.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="web-1920-8" />
+    <form class="web-1920-8 screen" name="form10" action="form10" method="post">
+      <div class="group-12-xfbfO6">
+        <div class="rectangle-50-GsSxUp border-1-5px-iron"></div>
+        <div class="room-number-GsSxUp tahoma-regular-normal-scarpa-flow-16px">Room Number</div>
+        <input
+          class="enter-room-number-GsSxUp tahoma-regular-normal-dove-gray-16px"
+          name="enter-room-number2"
+          placeholder="Enter room number"
+        />
+      </div>
+      <a href="web-1920-2.html">
+        <div class="core-component-button-standard-xfbfO6">
+          <div class="background-RiAMMx"></div>
+          <div class="back-RiAMMx sourcesanspro-semi-bold-white-16px">Back</div>
+        </div></a
+      ><a href="javascript:SubmitForm('form10')">
+        <div class="signup-buton-xfbfO6">
+          <div class="rectangle-148475-fgqXd4 border-2px-blueberry"></div>
+          <div class="hover-fgqXd4 smart-layers-pointers hidden"></div>
+          <div class="find-room-fgqXd4 sourcesanspro-normal-white-18px">Find Room</div>
+        </div></a
+      >
+      <div class="group-21-xfbfO6">
+        <div class="room-details-XLd42J tahoma-bold-dove-gray-20px">Room Details</div>
+        <div class="group-24-XLd42J">
+          <div class="room-id-ho4ZJO tahoma-regular-normal-dove-gray-20px">Room ID:</div>
+          <div class="room-type-ho4ZJO tahoma-regular-normal-dove-gray-20px">Room Type:</div>
+          <div class="room-number-ho4ZJO tahoma-regular-normal-dove-gray-20px">Room Number:</div>
+          <div class="rate-ho4ZJO tahoma-regular-normal-dove-gray-20px">Rate:</div>
+          <div class="occupancy-ho4ZJO tahoma-regular-normal-dove-gray-20px">Occupancy:</div>
+          <div class="status-ho4ZJO tahoma-regular-normal-dove-gray-20px">Status:</div>
+        </div>
+      </div>
+      <div class="room-information-xfbfO6 sourcesanspro-semi-bold-dove-gray-50px">Room Information</div>
+      <img class="black-copy-xfbfO6" src="img/black---copy-1@1x.png" />
+    </form>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

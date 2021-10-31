@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/web-1920-1.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #bce0fd">
+    <input type="hidden" id="anPageName" name="page" value="web-1920-1" />
+    <div class="container-center-horizontal">
+      <form class="web-1920-1 screen" name="form1" action="form1" method="post">
+        <div class="group-33-HlzXCz">
+          <img class="star-hotel-logostransparent-L2rMwx" src="img/star-hotel-logos-transparent@1x.png" />
+          <div class="welcome-to-the-he-button-below-L2rMwx">
+            Welcome to the login page, enter using the button below!
+          </div>
+          <div class="group-20-L2rMwx">
+            <div class="rectangle-50-9xV5nb border-1-5px-iron"></div>
+            <input
+              class="employee-id-9xV5nb tahoma-regular-normal-dove-gray-16px"
+              name="employee-id1"
+              placeholder="Employee ID"
+            />
+          </div>
+        </div>
+        <a href="web-1920-2.html">
+          <div class="signup-buton-HlzXCz">
+            <div class="rectangle-148475-Gxk4eD border-2px-blueberry"></div>
+            <div class="hover-Gxk4eD smart-layers-pointers hidden"></div>
+            <div class="login-Gxk4eD sourcesanspro-normal-white-18px">Login</div>
+          </div></a
+        >
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

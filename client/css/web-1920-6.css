@@ -1,0 +1,253 @@
+/* screen - web-1920-6 */
+
+.web-1920-6 {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 895px;
+  min-width: 1299px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.web-1920-6 .core-component-button-standard-cP7Vcs {
+  background-color: transparent;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  right: 30px;
+  top: 34px;
+  width: 65px;
+}
+
+.web-1920-6 .background-6xSopZ {
+  background-color: var(--bright-red);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.web-1920-6 .back-6xSopZ {
+  background-color: transparent;
+  bottom: calc(25.00% - 6px);
+  height: 24px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: calc(44.83% - 16px);
+  text-align: left;
+  white-space: nowrap;
+  width: 36px;
+}
+
+.web-1920-6 .signup-buton-cP7Vcs {
+  background-color: transparent;
+  cursor: pointer;
+  height: 50px;
+  left: calc(36.75% - 90px);
+  position: absolute;
+  top: calc(36.92% - 18px);
+  width: 246px;
+}
+
+.web-1920-6 .rectangle-148475-K5Tqqq {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.web-1920-6 .hover-K5Tqqq {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.web-1920-6 .hover-K5Tqqq:hover {
+  opacity: 1;
+}
+
+.web-1920-6 .new-customer-K5Tqqq {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.24% - 56px);
+  text-align: center;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.web-1920-6 .rectangle-148479-K5Tqqq {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.web-1920-6 .hover-fCzjJn {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.web-1920-6 .hover-fCzjJn:hover {
+  opacity: 1;
+}
+
+.web-1920-6 .new-customer-fCzjJn {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.24% - 56px);
+  text-align: center;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.web-1920-6 .signup-buton-ftk7AB {
+  background-color: transparent;
+  cursor: pointer;
+  height: 50px;
+  position: absolute;
+  right: calc(36.66% - 90px);
+  top: calc(36.92% - 18px);
+  width: 246px;
+}
+
+.web-1920-6 .rectangle-148475-84k2aK {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.web-1920-6 .hover-84k2aK {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.web-1920-6 .hover-84k2aK:hover {
+  opacity: 1;
+}
+
+.web-1920-6 .new-customer-84k2aK {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.24% - 56px);
+  text-align: center;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.web-1920-6 .rectangle-148479-84k2aK {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.web-1920-6 .hover-bm12p7 {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.web-1920-6 .hover-bm12p7:hover {
+  opacity: 1;
+}
+
+.web-1920-6 .existing-customer-84k2aK {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.07% - 68px);
+  text-align: center;
+  white-space: nowrap;
+  width: 138px;
+}
+
+.web-1920-6 .new-reservation-cP7Vcs {
+  background-color: transparent;
+  height: 73px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  position: absolute;
+  right: calc(49.84% - 181px);
+  text-align: center;
+  top: calc(27.19% - 20px);
+  white-space: nowrap;
+  width: 364px;
+}
+
+.web-1920-6 .black-copy-cP7Vcs {
+  background-color: transparent;
+  height: 149px;
+  object-fit: cover;
+  position: absolute;
+  right: calc(49.90% - 167px);
+  top: 36px;
+  width: 335px;
+}
