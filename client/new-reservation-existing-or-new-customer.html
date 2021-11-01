@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1299, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/new-reservation-existing-or-new-customer.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="new-reservation-existing-or-new-customer" />
+    <form class="new-reservation-existing-or-new-customer screen" name="form3" action="form3" method="post">
+      <a href="main-menu.html">
+        <div class="core-component-button-standard-XPnWMx">
+          <div class="background-ImUXdx"></div>
+          <div class="back-ImUXdx sourcesanspro-semi-bold-white-16px">Back</div>
+        </div></a
+      ><a href="new-customer.html">
+        <div class="signup-buton-XPnWMx">
+          <div class="rectangle-148475-4G9njo border-2px-blueberry"></div>
+          <div class="hover-4G9njo smart-layers-pointers hidden"></div>
+          <div class="new-customer-4G9njo sourcesanspro-normal-white-18px">New Customer</div>
+          <div class="rectangle-148479-4G9njo border-2px-blueberry"></div>
+          <div class="hover-sJR2i4 smart-layers-pointers hidden"></div>
+          <div class="new-customer-sJR2i4 sourcesanspro-normal-white-18px">New Customer</div>
+        </div></a
+      ><a href="new-reservation-creation.html">
+        <div class="signup-buton-CvhExi">
+          <div class="rectangle-148475-bujm8L border-2px-blueberry"></div>
+          <div class="hover-bujm8L smart-layers-pointers hidden"></div>
+          <div class="new-customer-bujm8L sourcesanspro-normal-white-18px">New Customer</div>
+          <div class="rectangle-148479-bujm8L border-2px-blueberry"></div>
+          <div class="hover-C2TndR smart-layers-pointers hidden"></div>
+          <div class="existing-customer-bujm8L sourcesanspro-normal-white-18px">Existing Customer</div>
+        </div></a
+      >
+      <div class="new-reservation-XPnWMx sourcesanspro-semi-bold-dove-gray-50px">New Reservation</div>
+      <img class="black-copy-XPnWMx" src="img/black---copy-1@1x.png" />
+    </form>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

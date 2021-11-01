@@ -1,6 +1,6 @@
-/* screen - web-1920-1 */
+/* screen - login */
 
-.web-1920-1 {
+.login {
   background-color: #bce0fd;
   height: 1080px;
   overflow: hidden;
@@ -9,7 +9,7 @@
   width: 1920px;
 }
 
-.web-1920-1 .group-33-HlzXCz {
+.login .group-33-b8DrbD {
   background-color: transparent;
   height: 1200px;
   left: 360px;
@@ -18,7 +18,7 @@
   width: 1200px;
 }
 
-.web-1920-1 .star-hotel-logostransparent-L2rMwx {
+.login .star-hotel-logostransparent-vLIRLw {
   background-color: transparent;
   height: 105.00%;
   left: -2.50%;
@@ -28,7 +28,7 @@
   width: 105.00%;
 }
 
-.web-1920-1 .welcome-to-the-he-button-below-L2rMwx {
+.login .welcome-to-the-he-button-below-vLIRLw {
   background-color: transparent;
   bottom: calc(27.67% - 11px);
   color: var(--dove-gray);
@@ -46,7 +46,7 @@
   width: 615px;
 }
 
-.web-1920-1 .group-20-L2rMwx {
+.login .group-20-vLIRLw {
   background-color: transparent;
   bottom: calc(18.32% - 10px);
   height: 54px;
@@ -55,7 +55,7 @@
   width: 342px;
 }
 
-.web-1920-1 .rectangle-50-9xV5nb {
+.login .rectangle-50-rFiPyc {
   background-color: var(--white);
   border-radius: 4px;
   height: 100%;
@@ -65,7 +65,7 @@
   width: 100%;
 }
 
-.web-1920-1 .employee-id-9xV5nb {
+.login .employee-id-rFiPyc {
   background-color: transparent;
   border: 0;
   bottom: calc(40.62% - 9px);
@@ -81,11 +81,11 @@
   width: calc(100.00% - 17px);
 }
 
-.web-1920-1 .employee-id-9xV5nb::placeholder {
+.login .employee-id-rFiPyc::placeholder {
   color: #70707099;
 }
 
-.web-1920-1 .signup-buton-HlzXCz {
+.login .signup-buton-b8DrbD {
   background-color: transparent;
   cursor: pointer;
   height: 50px;
@@ -95,7 +95,7 @@
   width: 111px;
 }
 
-.web-1920-1 .rectangle-148475-Gxk4eD {
+.login .rectangle-148475-vawCmW {
   background-color: var(--blueberry);
   border-radius: 4px;
   height: 100%;
@@ -105,7 +105,7 @@
   width: 100%;
 }
 
-.web-1920-1 .hover-Gxk4eD {
+.login .hover-vawCmW {
   background-color: var(--royal-blue);
   border-radius: 4px;
   cursor: pointer;
@@ -119,11 +119,11 @@
   width: 100%;
 }
 
-.web-1920-1 .hover-Gxk4eD:hover {
+.login .hover-vawCmW:hover {
   opacity: 1;
 }
 
-.web-1920-1 .login-Gxk4eD {
+.login .login-vawCmW {
   background-color: transparent;
   bottom: calc(28.26% - 8px);
   height: 27px;

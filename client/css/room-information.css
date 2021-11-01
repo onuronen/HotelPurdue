@@ -1,6 +1,6 @@
-/* screen - web-1920-9 */
+/* screen - room-information */
 
-.web-1920-9 {
+.room-information {
   background-color: var(--white);
   height: 100vh;
   margin: 0px;
@@ -12,16 +12,16 @@
   width: 100%;
 }
 
-.web-1920-9 .group-12-NZx1Eq {
+.room-information .group-12-5Fdaa3 {
   background-color: transparent;
   height: 75px;
-  left: calc(28.20% - 93px);
+  left: calc(28.62% - 95px);
   position: absolute;
-  top: calc(41.34% - 31px);
+  top: calc(46.10% - 35px);
   width: 331px;
 }
 
-.web-1920-9 .rectangle-50-uuWmhA {
+.room-information .rectangle-50-hUC7Wv {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -31,7 +31,7 @@
   width: 100%;
 }
 
-.web-1920-9 .room-number-uuWmhA {
+.room-information .room-number-hUC7Wv {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -44,7 +44,7 @@
   width: 105px;
 }
 
-.web-1920-9 .enter-room-number-uuWmhA {
+.room-information .enter-room-number-hUC7Wv {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -60,11 +60,11 @@
   width: calc(100.00% - 17px);
 }
 
-.web-1920-9 .enter-room-number-uuWmhA::placeholder {
+.room-information .enter-room-number-hUC7Wv::placeholder {
   color: #70707099;
 }
 
-.web-1920-9 .core-component-button-standard-NZx1Eq {
+.room-information .core-component-button-standard-5Fdaa3 {
   background-color: transparent;
   cursor: pointer;
   height: 40px;
@@ -74,7 +74,7 @@
   width: 65px;
 }
 
-.web-1920-9 .background-aWUQIi {
+.room-information .background-U6w5pt {
   background-color: var(--bright-red);
   border-radius: 4px;
   height: 100%;
@@ -84,7 +84,7 @@
   width: 100%;
 }
 
-.web-1920-9 .back-aWUQIi {
+.room-information .back-U6w5pt {
   background-color: transparent;
   bottom: calc(25.00% - 6px);
   height: 24px;
@@ -97,17 +97,17 @@
   width: 36px;
 }
 
-.web-1920-9 .signup-buton-NZx1Eq {
+.room-information .signup-buton-5Fdaa3 {
   background-color: transparent;
-  bottom: calc(36.45% - 18px);
+  bottom: calc(44.02% - 22px);
   cursor: pointer;
   height: 50px;
-  left: calc(28.28% - 93px);
+  left: calc(28.69% - 95px);
   position: absolute;
   width: 330px;
 }
 
-.web-1920-9 .rectangle-148475-PtArb4 {
+.room-information .rectangle-148475-geVpYy {
   background-color: var(--blueberry);
   border-radius: 4px;
   height: 100%;
@@ -117,7 +117,7 @@
   width: 100%;
 }
 
-.web-1920-9 .hover-PtArb4 {
+.room-information .hover-geVpYy {
   background-color: var(--royal-blue);
   border-radius: 4px;
   cursor: pointer;
@@ -131,33 +131,33 @@
   width: 100%;
 }
 
-.web-1920-9 .hover-PtArb4:hover {
+.room-information .hover-geVpYy:hover {
   opacity: 1;
 }
 
-.web-1920-9 .find-reservation-PtArb4 {
+.room-information .find-room-geVpYy {
   background-color: transparent;
   bottom: calc(28.26% - 8px);
   height: 27px;
   letter-spacing: 0.13px;
   line-height: 18px;
   position: absolute;
-  right: calc(49.50% - 64px);
+  right: calc(49.59% - 42px);
   text-align: center;
   white-space: nowrap;
-  width: 130px;
+  width: 84px;
 }
 
-.web-1920-9 .group-21-NZx1Eq {
+.room-information .group-21-5Fdaa3 {
   background-color: transparent;
-  bottom: calc(34.73% - 145px);
-  height: 417px;
+  bottom: calc(43.39% - 119px);
+  height: 275px;
   position: absolute;
-  right: calc(37.35% - 73px);
-  width: 196px;
+  right: calc(40.34% - 54px);
+  width: 134px;
 }
 
-.web-1920-9 .reservation-details-AJAVtk {
+.room-information .room-details-JoGBwq {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -170,16 +170,16 @@
   width: calc(100.00% + 2px);
 }
 
-.web-1920-9 .group-24-AJAVtk {
+.room-information .group-24-JoGBwq {
   background-color: transparent;
   height: calc(100.00% - 41px);
   left: 0px;
   position: absolute;
   top: 41px;
-  width: 166px;
+  width: calc(100.00% - 2px);
 }
 
-.web-1920-9 .customer-name-1pXPmh {
+.room-information .room-id-qMTnoo {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -189,10 +189,10 @@
   text-align: left;
   top: 2px;
   white-space: nowrap;
-  width: calc(100.00% - 9px);
+  width: 87px;
 }
 
-.web-1920-9 .number-of-guests-1pXPmh {
+.room-information .room-type-qMTnoo {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -200,38 +200,12 @@
   line-height: 20px;
   position: absolute;
   text-align: left;
-  top: 46px;
-  white-space: nowrap;
-  width: calc(100.00% + 2px);
-}
-
-.web-1920-9 .room-number-1pXPmh {
-  background-color: transparent;
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  top: calc(25.71% - 7px);
-  white-space: nowrap;
-  width: 136px;
-}
-
-.web-1920-9 .room-type-1pXPmh {
-  background-color: transparent;
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  top: calc(37.71% - 10px);
+  top: calc(21.15% - 6px);
   white-space: nowrap;
   width: 109px;
 }
 
-.web-1920-9 .check-in-date-1pXPmh {
+.room-information .room-number-qMTnoo {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -239,14 +213,14 @@
   line-height: 20px;
   position: absolute;
   text-align: left;
-  top: calc(49.71% - 13px);
+  top: calc(41.35% - 11px);
   white-space: nowrap;
-  width: 131px;
+  width: calc(100.00% + 2px);
 }
 
-.web-1920-9 .check-out-date-1pXPmh {
+.room-information .rate-qMTnoo {
   background-color: transparent;
-  bottom: calc(38.29% - 10px);
+  bottom: calc(38.46% - 10px);
   height: 26px;
   left: 0px;
   letter-spacing: 0.00px;
@@ -254,150 +228,49 @@
   position: absolute;
   text-align: left;
   white-space: nowrap;
-  width: calc(100.00% - 24px);
+  width: 49px;
 }
 
-.web-1920-9 .repeat-grid-9-1pXPmh {
+.room-information .occupancy-qMTnoo {
   background-color: transparent;
-  bottom: 0px;
-  height: 120px;
-  left: 0px;
-  position: absolute;
-  width: calc(100.00% - 10px);
-}
-
-.web-1920-9 .x0-XmjEJ1 {
-  background-color: transparent;
-  height: 24px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 160px;
-}
-
-.web-1920-9 .reservation-date-qgLZ76 {
-  background-color: transparent;
-  height: auto;
+  bottom: calc(18.27% - 5px);
+  height: 26px;
   left: 0px;
   letter-spacing: 0.00px;
   line-height: 20px;
   position: absolute;
   text-align: left;
-  top: 2px;
   white-space: nowrap;
-  width: auto;
+  width: 111px;
 }
 
-.web-1920-9 .x1-XmjEJ1 {
+.room-information .status-qMTnoo {
   background-color: transparent;
-  height: 24px;
+  bottom: -4px;
+  height: 26px;
   left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
   position: absolute;
-  top: 44px;
+  text-align: left;
+  white-space: nowrap;
   width: 64px;
 }
 
-.web-1920-9 .status-aZkiHE {
-  background-color: transparent;
-  height: auto;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: auto;
-}
-
-.web-1920-9 .x2-XmjEJ1 {
-  background-color: transparent;
-  height: 24px;
-  left: 0px;
-  position: absolute;
-  top: 88px;
-  width: 59px;
-}
-
-.web-1920-9 .notes-yyjDXv {
-  background-color: transparent;
-  height: auto;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: auto;
-}
-
-.web-1920-9 .group-25-NZx1Eq {
-  background-color: transparent;
-  bottom: calc(46.71% - 35px);
-  height: 75px;
-  left: calc(28.20% - 93px);
-  position: absolute;
-  width: 331px;
-}
-
-.web-1920-9 .rectangle-50-HtO9mI {
-  background-color: var(--white);
-  border-radius: 4px;
-  bottom: 0px;
-  height: 50px;
-  left: 0px;
-  position: absolute;
-  width: 100%;
-}
-
-.web-1920-9 .check-in-date-HtO9mI {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  letter-spacing: 0.11px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: 101px;
-}
-
-.web-1920-9 .enter-check-in-date-HtO9mI {
-  background-color: transparent;
-  border: 0;
-  bottom: calc(20.75% - 5px);
-  height: 22px;
-  left: 7px;
-  letter-spacing: 0.05px;
-  line-height: 24px;
-  padding: 0;
-  position: absolute;
-  resize: none;
-  text-align: left;
-  white-space: nowrap;
-  width: calc(100.00% - 17px);
-}
-
-.web-1920-9 .enter-check-in-date-HtO9mI::placeholder {
-  color: #70707099;
-}
-
-.web-1920-9 .reservation-information-NZx1Eq {
+.room-information .room-information-5Fdaa3 {
   background-color: transparent;
   height: 73px;
   letter-spacing: 0.00px;
   line-height: 50px;
   position: absolute;
-  right: calc(49.81% - 262px);
+  right: calc(49.83% - 197px);
   text-align: center;
   top: calc(27.19% - 20px);
   white-space: nowrap;
-  width: 526px;
+  width: 396px;
 }
 
-.web-1920-9 .black-copy-NZx1Eq {
+.room-information .black-copy-5Fdaa3 {
   background-color: transparent;
   height: 149px;
   object-fit: cover;

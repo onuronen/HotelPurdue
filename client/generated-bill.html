@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1299, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/generated-bill.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="generated-bill" />
+    <form class="generated-bill screen" name="form15" action="form15" method="post">
+      <div class="bill-id-qjpuqI">Bill ID:</div>
+      <div class="group-21-qjpuqI">
+        <div class="customer-information-Hjrlza tahoma-bold-dove-gray-20px">Customer Information</div>
+        <div class="group-24-Hjrlza">
+          <img class="path-1-jlNsBF" src="img/path-1@1x.png" />
+          <div class="name-jlNsBF tahoma-regular-normal-dove-gray-20px">Name:</div>
+          <div class="email-jlNsBF tahoma-regular-normal-dove-gray-20px">Email:</div>
+          <div class="phone-number-jlNsBF tahoma-regular-normal-dove-gray-20px">Phone Number:</div>
+          <div class="street-jlNsBF tahoma-regular-normal-dove-gray-20px">Street:</div>
+          <div class="state-jlNsBF tahoma-regular-normal-dove-gray-20px">State:</div>
+          <div class="country-jlNsBF tahoma-regular-normal-dove-gray-20px">Country:</div>
+          <div class="id-number-jlNsBF tahoma-regular-normal-dove-gray-20px">ID Number:</div>
+          <div class="id-type-jlNsBF tahoma-regular-normal-dove-gray-20px">ID Type:</div>
+          <div class="credit-card-number-0000-jlNsBF tahoma-regular-normal-dove-gray-20px">
+            Credit Card Number : ************0000
+          </div>
+        </div>
+      </div>
+      <div class="date-qjpuqI tahoma-regular-normal-dove-gray-20px">Date:</div>
+      <div class="repeat-grid-8-qjpuqI">
+        <div class="group-3-lxR3Jj">
+          <div class="reservation-details-aQD3Kx tahoma-bold-dove-gray-20px">Reservation Details</div>
+          <div class="group-4-aQD3Kx">
+            <div class="rectangle-148477-2PMET0"></div>
+            <div class="room-number-2PMET0 tahoma-regular-normal-dove-gray-20px">Room Number:</div>
+            <div class="room-type-2PMET0 tahoma-regular-normal-dove-gray-20px">Room Type:</div>
+            <div class="check-in-date-2PMET0 tahoma-regular-normal-dove-gray-20px">Check in Date</div>
+            <div class="check-out-date-2PMET0 tahoma-regular-normal-dove-gray-20px">Check out Date:</div>
+          </div>
+        </div>
+      </div>
+      <div class="group-3-qjpuqI">
+        <div class="rectangle-148478-mOYLvc"></div>
+        <div class="charges-mOYLvc tahoma-bold-dove-gray-20px">Charges</div>
+        <div class="group-1-mOYLvc">
+          <div class="room-charge-mLzhAB tahoma-regular-normal-dove-gray-20px">Room Charge:</div>
+          <div class="bar-charge-mLzhAB tahoma-regular-normal-dove-gray-20px">Bar Charge:</div>
+          <div class="additional-charges-mLzhAB tahoma-regular-normal-dove-gray-20px">Additional Charges:</div>
+        </div>
+        <div class="group-2-mOYLvc">
+          <div class="tax-iKG7B6 tahoma-regular-normal-dove-gray-20px">Tax:</div>
+          <div class="total-iKG7B6 tahoma-regular-normal-dove-gray-20px">TOTAL:</div>
+        </div>
+      </div>
+      <a href="main-menu.html">
+        <div class="signup-buton-qjpuqI">
+          <div class="rectangle-148475-rUgIG4 border-2px-blueberry"></div>
+          <div class="hover-rUgIG4 smart-layers-pointers hidden"></div>
+          <div class="check-out-customer-rUgIG4 sourcesanspro-normal-white-18px">Check out Customer</div>
+        </div></a
+      ><img class="black-copy-qjpuqI" src="img/black---copy-1@1x.png" />
+    </form>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>
