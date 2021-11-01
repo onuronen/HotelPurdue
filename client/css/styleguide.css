@@ -80,3 +80,7 @@
 .border-2px-blueberry {
   border: 2px solid var(--blueberry);
 }
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
