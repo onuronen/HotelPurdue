@@ -6,14 +6,14 @@
     <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
-    <link rel="stylesheet" type="text/css" href="css/new-customer.css" />
-    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
-    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/new-customer.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/globals.css" />
     <meta name="author" content="AnimaApp.com - Design to code, Automated." />
   </head>
   <body style="margin: 0; background: #ffffff">
     <input type="hidden" id="anPageName" name="page" value="new-customer" />
-    <form class="new-customer screen" name="form9" action="form9" method="post">
+    <form id = "new_customer" class="new-customer screen" name="form9" action="form9" method="post">
       <a href="main-menu.html">
         <div class="core-component-button-standard-wz9xay">
           <div class="background-7TupTi"></div>
@@ -152,9 +152,10 @@
         </div></a
       >
       <div class="new-customer-wz9xay sourcesanspro-semi-bold-dove-gray-50px">New Customer</div>
-      <img class="black-copy-wz9xay" src="img/black---copy-1@1x.png" />
+      <img class="black-copy-wz9xay" src="../static/img/black---copy-1@1x.png" />
     </form>
-    <script>
+
+    <!-- <script>
       /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
 
       if (!HTMLFormElement.prototype.reportValidity) {
@@ -175,7 +176,7 @@
           if (window.submitted) window.submitted();
         }
       }
-    </script>
+    </script> -->
     <script src="../static/new_customer.js"> </script>
   </body>
 </html>

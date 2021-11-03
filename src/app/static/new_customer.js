@@ -1,11 +1,12 @@
 //url = "https://hotel-purdue.herokuapp.com/"
 url = "http://127.0.0.1:5000/"
 
-
-document.getElementsByClassName("new-customer screen").addEventListener("submit", function(evt) {
+document.querySelector("#new_customer").addEventListener("submit", function(evt) {
     //evt.preventDefault();
 
     //document.querySelector(".form_error").innerHTML = null;
+
+    connsole.log("HERE!")
 
     var first_name = document.getElementById("first_name").value;
     var last_name = document.getElementById("last_name").value;

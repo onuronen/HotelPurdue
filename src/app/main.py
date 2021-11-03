@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, redirect
 from flask_cors import CORS
 from flask import request, jsonify
 from flask import render_template
@@ -24,24 +24,36 @@ def make_app():
     @app.route("/")
     def home_page():
         return render_template('main-menu.html')
-
-    @app.route("/create_reservation")
-    def create_reservation_page():
-        return render_template('new-reservation-existing-or-new-customer.html')
     
-    @app.route("/customer_checkout")
+    @app.route("/main-menu.html")
+    def redirect_to_home():
+        return redirect("/", code=302)
+
+    @app.route("/new-reservation-existing-or-new-customer.html")
+    def new_reservation_page():
+        return render_template('new-reservation-existing-or-new-customer.html')
+
+    @app.route("/new-customer.html")
+    def create_reservation_page():
+        return render_template('new-customer.html')
+
+    @app.route("/new-reservation-creation.html")
+    def proceed_reservation_page():
+        return render_template('new-reservation-creation.html')
+    
+    @app.route("/customer-checkout.html")
     def customer_checkout_page():
         return render_template('customer-checkout.html')
 
-    @app.route("/room_information")
+    @app.route("/room-information.html")
     def room_information_page():
         return render_template('room-information.html')
     
-    @app.route("/reservation_information")
+    @app.route("/reservation-information.html")
     def reservation_information_page():
         return render_template('reservation-information.html')
 
-    @app.route("/customer_information")
+    @app.route("/customer-information.html")
     def customer_information_page():
         return render_template('customer-information.html')
 
