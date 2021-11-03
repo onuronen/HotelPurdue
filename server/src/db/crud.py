@@ -6,11 +6,11 @@ from sqlalchemy.orm import sessionmaker
 
 import os
 import sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(_file_)))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from src.db.models import Base, Credit_Card_Info, Bill, Customer, Reservation, Employee, Room_Information, Room_Type
 from src.config import postgres_config
 
-logger = logging.getLogger(_name_)
+logger = logging.getLogger(__name__)
 conn_str = f"postgresql://{postgres_config['user']}:{postgres_config['password']}@{postgres_config['host']}/{postgres_config['database']}"
 engine = create_engine(conn_str)
 Session = sessionmaker(bind=engine)
@@ -54,7 +54,59 @@ def update_table(new_df, BaseClass):
     session.commit()
     session.close()
 
-create_tables()
 
-if _name_ == '_main_':
+def fetch_customer_by_id(id_number):
+    session = Session()
+
+    try:
+        result = session.query(Customer).filter(Customer.id_number == id_number)
+
+    finally:
+        session.close()
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
+
+def fetch_customer_by_card_number(card_number):
+    session = Session()
+
+    try:
+        result = session.query(Credit_Card_Info).filter(Credit_Card_Info.card_number == card_number)
+
+    finally:
+        session.close()
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
+
+def fetch_customer_by_room_number(room_number):
+    session = Session()
+
+    try:
+        result = session.query(Room_Information).filter(Room_Information.room_number == room_number)
+
+    finally:
+        session.close()
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
+
+#create_tables()
+
+if __name__ == '__main__':
     pass

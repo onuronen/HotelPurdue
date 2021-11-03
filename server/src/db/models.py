@@ -22,8 +22,7 @@ class Credit_Card_Info(Base):
     card_id = Column (Integer, primary_key=True, autoincrement=True)
     full_name = Column(String, nullable = False)
     card_number = Column(Integer, nullable=False)
-    exp_month = Column(Integer, nullable=False)
-    exp_year = Column(Integer, nullable=False)
+    exp_date = Column(String, nullable=False)
     cvv_num = Column(Integer, nullable=False)
     Children = relationship("Bill")
 
@@ -62,7 +61,6 @@ class Reservation(Base):
     reservation_id = Column (Integer, primary_key=True, autoincrement=True)
     room_id = Column(Integer, ForeignKey('room_information.room_id'))
     customer_id = Column(Integer, ForeignKey('customer.customer_id'))
-    status = Column(String, nullable=False)
     start_date = Column(Date, nullable=False)
     end_date = Column(TIMESTAMP, nullable=False)
     reservation_date = Column(TIMESTAMP, nullable=False)
@@ -75,14 +73,7 @@ class Reservation(Base):
 class Employee(Base):
     __tablename__ = "employee"
     employee_id = Column (Integer, primary_key=True, autoincrement=True)
-    emp_fname = Column(String, nullable=False)
-    emp_lname = Column(String, nullable=False)
-    emp_number = Column(Integer, nullable=False)
-    emp_email = Column(String, nullable=False)
-    emp_street = Column(String, nullable=False)
-    emp_state = Column(String, nullable=False)
-    emp_country = Column(String, nullable=False)
-    notes = Column(String, nullable=True)
+    emp_fullname = Column(String, nullable=False)
     Children = relationship("Reservation")
 
 
@@ -91,14 +82,14 @@ class Room_Information(Base):
     room_id = Column (Integer, primary_key=True, autoincrement=True)
     room_type = Column(String, ForeignKey('room_type.type_room'))
     room_number = Column(Integer, nullable=False)
-    description = Column(String, nullable=True)
+    #description = Column(String, nullable=True)
     Children = relationship("Reservation")
 
 class Room_Type(Base):
     __tablename__ = "room_type"
     type_room = Column(String, primary_key=True, nullable=False)
     price = Column(Integer, nullable=False)
-    description = Column(String, nullable=True)
+    #description = Column(String, nullable=True)
     max_occupancy = Column(Integer, nullable =False)
     Children = relationship("Room_Information")
 
