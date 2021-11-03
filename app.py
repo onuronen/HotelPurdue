@@ -1,7 +1,7 @@
 import os
 import sys
 sys.path.append(os.getcwd())
-from main import make_app
+from src.app.main import make_app
 
 app = make_app()
 

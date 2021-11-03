@@ -8,7 +8,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from src.db.models import Base, Credit_Card_Info, Bill, Customer, Reservation, Employee, Room_Information, Room_Type
-from src.config import postgres_config
+from src.app.config import postgres_config
 
 logger = logging.getLogger(__name__)
 conn_str = f"postgresql://{postgres_config['user']}:{postgres_config['password']}@{postgres_config['host']}/{postgres_config['database']}"
