@@ -106,7 +106,7 @@ def fetch_customer_by_room_number(room_number):
         return None
 
 
-#create_tables()
+create_tables()
 
 if __name__ == '__main__':
     pass

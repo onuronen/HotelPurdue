@@ -7,61 +7,55 @@
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
     <link rel="stylesheet" type="text/css" href="../static/css/new-reservation-existing-or-new-customer.css" />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../static/css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="../static/css/globals.css" />
     <meta name="author" content="AnimaApp.com - Design to code, Automated." />
   </head>
   <body style="margin: 0; background: #ffffff">
     <input type="hidden" id="anPageName" name="page" value="new-reservation-existing-or-new-customer" />
-    <form class="new-reservation-existing-or-new-customer screen" name="form3" action="form3" method="post">
+    <div class="new-reservation-existing-or-new-customer screen">
       <a href="main-menu.html">
         <div class="core-component-button-standard-XPnWMx">
           <div class="background-ImUXdx"></div>
           <div class="back-ImUXdx sourcesanspro-semi-bold-white-16px">Back</div>
         </div></a
-      ><a href="new-customer.html">
-        <div class="signup-buton-XPnWMx">
-          <div class="rectangle-148475-4G9njo border-2px-blueberry"></div>
-          <div class="hover-4G9njo smart-layers-pointers hidden"></div>
-          <div class="new-customer-4G9njo sourcesanspro-normal-white-18px">New Customer</div>
-          <div class="rectangle-148479-4G9njo border-2px-blueberry"></div>
-          <div class="hover-sJR2i4 smart-layers-pointers hidden"></div>
-          <div class="new-customer-sJR2i4 sourcesanspro-normal-white-18px">New Customer</div>
-        </div></a
-      ><a href="new-reservation-creation.html">
-        <div class="signup-buton-CvhExi">
-          <div class="rectangle-148475-bujm8L border-2px-blueberry"></div>
-          <div class="hover-bujm8L smart-layers-pointers hidden"></div>
-          <div class="new-customer-bujm8L sourcesanspro-normal-white-18px">New Customer</div>
-          <div class="rectangle-148479-bujm8L border-2px-blueberry"></div>
-          <div class="hover-C2TndR smart-layers-pointers hidden"></div>
-          <div class="existing-customer-bujm8L sourcesanspro-normal-white-18px">Existing Customer</div>
-        </div></a
       >
-      <div class="new-reservation-XPnWMx sourcesanspro-semi-bold-dove-gray-50px">New Reservation</div>
-      <img class="black-copy-XPnWMx" src="../static/img/black---copy-1@1x.png" />
-    </form>
-    <script>
-      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
-
-      if (!HTMLFormElement.prototype.reportValidity) {
-        HTMLFormElement.prototype.reportValidity = function () {
-          if (this.checkValidity()) return true;
-          var btn = document.createElement("button");
-          this.appendChild(btn);
-          btn.click();
-          this.removeChild(btn);
-          return false;
-        };
-      }
-
-      function SubmitForm(form_name) {
-        var form = document.getElementsByName(form_name)[0];
-        if (form.reportValidity()) {
-          form.submit();
-          if (window.submitted) window.submitted();
-        }
-      }
-    </script>
+      <div class="repeat-grid-21-XPnWMx">
+        <div class="x01-xmnf9I">
+          <div class="new-reservation-nCoEx5 sourcesanspro-semi-bold-dove-gray-50px">New Reservation</div>
+          <img class="black-copy-nCoEx5" src="../static/img/black---copy-1@1x.png" />
+          <a href="new-reservation-creation.html">
+            <div class="button-raised-f-isabled-primary-nCoEx5">
+              <button class="mdc-button mdc-button--raised" data-id="anima-widget">
+                <span class="mdc-button__ripple"></span> <span class="mdc-button__label">Existing Customer</span>
+              </button>
+              <script>
+                mdc.autoInit();
+                new mdc.ripple.MDCRipple(document.querySelector(".button-raised-f-isabled-primary-nCoEx5 .mdc-button"));
+              </script>
+            </div></a
+          ><a href="new-customer.html">
+            <div class="button-raised-f-isabled-primary-G02xTx">
+              <button class="mdc-button mdc-button--raised" data-id="anima-widget">
+                <span class="mdc-button__ripple"></span> <span class="mdc-button__label">New Customer</span>
+              </button>
+              <script>
+                mdc.autoInit();
+                new mdc.ripple.MDCRipple(document.querySelector(".button-raised-f-isabled-primary-G02xTx .mdc-button"));
+              </script>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
   </body>
 </html>

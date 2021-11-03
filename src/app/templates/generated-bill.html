@@ -7,14 +7,23 @@
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
     <link rel="stylesheet" type="text/css" href="../static/css/generated-bill.css" />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="../static/css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="../static/css/globals.css" />
     <meta name="author" content="AnimaApp.com - Design to code, Automated." />
   </head>
   <body style="margin: 0; background: #ffffff">
     <input type="hidden" id="anPageName" name="page" value="generated-bill" />
-    <form class="generated-bill screen" name="form15" action="form15" method="post">
-      <div class="bill-id-qjpuqI">Bill ID:</div>
+    <div class="generated-bill screen">
+      <h1 class="title-qjpuqI">Bill ID:</h1>
       <div class="group-21-qjpuqI">
         <div class="customer-information-Hjrlza tahoma-bold-dove-gray-20px">Customer Information</div>
         <div class="group-24-Hjrlza">
@@ -58,35 +67,18 @@
           <div class="total-iKG7B6 tahoma-regular-normal-dove-gray-20px">TOTAL:</div>
         </div>
       </div>
+      <img class="black-copy-qjpuqI" src="img/black---copy-1@1x.png" />
       <a href="main-menu.html">
-        <div class="signup-buton-qjpuqI">
-          <div class="rectangle-148475-rUgIG4 border-2px-blueberry"></div>
-          <div class="hover-rUgIG4 smart-layers-pointers hidden"></div>
-          <div class="check-out-customer-rUgIG4 sourcesanspro-normal-white-18px">Check out Customer</div>
+        <div class="button-raised-f-isabled-primary-qjpuqI">
+          <button class="mdc-button mdc-button--raised" data-id="anima-widget">
+            <span class="mdc-button__ripple"></span> <span class="mdc-button__label">Check out Customer</span>
+          </button>
+          <script>
+            mdc.autoInit();
+            new mdc.ripple.MDCRipple(document.querySelector(".button-raised-f-isabled-primary-qjpuqI .mdc-button"));
+          </script>
         </div></a
-      ><img class="black-copy-qjpuqI" src="../static/img/black---copy-1@1x.png" />
-    </form>
-    <script>
-      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
-
-      if (!HTMLFormElement.prototype.reportValidity) {
-        HTMLFormElement.prototype.reportValidity = function () {
-          if (this.checkValidity()) return true;
-          var btn = document.createElement("button");
-          this.appendChild(btn);
-          btn.click();
-          this.removeChild(btn);
-          return false;
-        };
-      }
-
-      function SubmitForm(form_name) {
-        var form = document.getElementsByName(form_name)[0];
-        if (form.reportValidity()) {
-          form.submit();
-          if (window.submitted) window.submitted();
-        }
-      }
-    </script>
+      >
+    </div>
   </body>
 </html>

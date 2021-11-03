@@ -12,58 +12,6 @@
   width: 100%;
 }
 
-.customer-information .group-12-pGBa3b {
-  background-color: transparent;
-  height: 75px;
-  left: calc(27.69% - 92px);
-  position: absolute;
-  top: calc(41.34% - 31px);
-  width: 331px;
-}
-
-.customer-information .rectangle-50-PmrIn1 {
-  background-color: var(--white);
-  border-radius: 4px;
-  bottom: 0px;
-  height: 50px;
-  left: 0px;
-  position: absolute;
-  width: 100%;
-}
-
-.customer-information .customer-full-name-PmrIn1 {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  letter-spacing: 0.11px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: 147px;
-}
-
-.customer-information .enter-full-name-PmrIn1 {
-  background-color: transparent;
-  border: 0;
-  bottom: calc(20.75% - 5px);
-  height: 22px;
-  left: 7px;
-  letter-spacing: 0.05px;
-  line-height: 24px;
-  padding: 0;
-  position: absolute;
-  resize: none;
-  text-align: left;
-  white-space: nowrap;
-  width: calc(100.00% - 17px);
-}
-
-.customer-information .enter-full-name-PmrIn1::placeholder {
-  color: #70707099;
-}
-
 .customer-information .core-component-button-standard-pGBa3b {
   background-color: transparent;
   cursor: pointer;
@@ -97,228 +45,34 @@
   width: 36px;
 }
 
-.customer-information .signup-buton-pGBa3b {
+.customer-information .repeat-grid-20-pGBa3b {
   background-color: transparent;
-  bottom: calc(36.45% - 18px);
-  cursor: pointer;
-  height: 50px;
-  left: calc(27.76% - 92px);
+  height: calc(100.00% - 166px);
+  left: calc(46.61% - 337px);
   position: absolute;
-  width: 330px;
+  top: 36px;
+  width: 724px;
 }
 
-.customer-information .rectangle-148475-iJBWb7 {
-  background-color: var(--blueberry);
-  border-radius: 4px;
-  height: 100%;
+.customer-information .x04-rQ3Dot {
+  background-color: transparent;
+  height: 729px;
   left: 0px;
-  position: absolute;
+  position: relative;
   top: 0px;
-  width: 100%;
+  width: 723px;
 }
 
-.customer-information .hover-iJBWb7 {
-  background-color: var(--royal-blue);
-  border-radius: 4px;
-  cursor: pointer;
-  height: 100%;
-  left: 0px;
-  opacity: 0;
-  pointer-events: auto;
-  position: absolute;
-  top: 0px;
-  transition: all 0.2s ease;
-  width: 100%;
-}
-
-.customer-information .hover-iJBWb7:hover {
-  opacity: 1;
-}
-
-.customer-information .find-reservation-iJBWb7 {
+.customer-information .group-12-60pKcd {
   background-color: transparent;
-  bottom: calc(28.26% - 8px);
-  height: 27px;
-  letter-spacing: 0.13px;
-  line-height: 18px;
-  position: absolute;
-  right: calc(49.50% - 64px);
-  text-align: center;
-  white-space: nowrap;
-  width: 130px;
-}
-
-.customer-information .group-21-pGBa3b {
-  background-color: transparent;
-  bottom: 130px;
-  height: 453px;
-  position: absolute;
-  right: calc(30.99% - 95px);
-  width: 305px;
-}
-
-.customer-information .customer-details-xyxtZ4 {
-  background-color: transparent;
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: 174px;
-}
-
-.customer-information .group-24-xyxtZ4 {
-  background-color: transparent;
-  height: calc(100.00% - 41px);
-  left: 0px;
-  position: absolute;
-  top: 41px;
-  width: 100%;
-}
-
-.customer-information .full-name-KWMkei {
-  background-color: transparent;
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: 103px;
-}
-
-.customer-information .number-KWMkei {
-  background-color: transparent;
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  top: 46px;
-  white-space: nowrap;
-  width: 79px;
-}
-
-.customer-information .email-KWMkei {
-  background-color: transparent;
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  top: calc(23.32% - 6px);
-  white-space: nowrap;
-  width: 57px;
-}
-
-.customer-information .address-KWMkei {
-  background-color: transparent;
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  top: calc(34.20% - 9px);
-  white-space: nowrap;
-  width: 79px;
-}
-
-.customer-information .id-number-KWMkei {
-  background-color: transparent;
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  top: calc(45.08% - 12px);
-  white-space: nowrap;
-  width: 106px;
-}
-
-.customer-information .id-type-KWMkei {
-  background-color: transparent;
-  bottom: calc(44.04% - 11px);
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  white-space: nowrap;
-  width: 80px;
-}
-
-.customer-information .card-number-0000-KWMkei {
-  background-color: transparent;
-  bottom: calc(33.16% - 9px);
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  white-space: nowrap;
-  width: calc(100.00% + 2px);
-}
-
-.customer-information .exp-date-mmyyyy-KWMkei {
-  background-color: transparent;
-  bottom: calc(21.76% - 6px);
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  white-space: nowrap;
-  width: 186px;
-}
-
-.customer-information .cvv-KWMkei {
-  background-color: transparent;
-  bottom: 40px;
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  white-space: nowrap;
-  width: 45px;
-}
-
-.customer-information .notes-KWMkei {
-  background-color: transparent;
-  bottom: -4px;
-  height: 26px;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: 20px;
-  position: absolute;
-  text-align: left;
-  white-space: nowrap;
-  width: 59px;
-}
-
-.customer-information .group-25-pGBa3b {
-  background-color: transparent;
-  bottom: calc(46.71% - 35px);
   height: 75px;
-  left: calc(27.69% - 92px);
+  left: 0px;
   position: absolute;
+  top: 303px;
   width: 331px;
 }
 
-.customer-information .rectangle-50-spzdxx {
+.customer-information .rectangle-50-8VtCAQ {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -328,7 +82,7 @@
   width: 100%;
 }
 
-.customer-information .customer-email-spzdxx {
+.customer-information .customer-full-name-8VtCAQ {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -338,10 +92,10 @@
   text-align: left;
   top: 2px;
   white-space: nowrap;
-  width: 114px;
+  width: 147px;
 }
 
-.customer-information .enter-email-spzdxx {
+.customer-information .enter-full-name-8VtCAQ {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -357,29 +111,256 @@
   width: calc(100.00% - 17px);
 }
 
-.customer-information .enter-email-spzdxx::placeholder {
+.customer-information .enter-full-name-8VtCAQ::placeholder {
   color: #70707099;
 }
 
-.customer-information .customer-information-pGBa3b {
+.customer-information .group-21-60pKcd {
   background-color: transparent;
-  height: 73px;
+  height: 453px;
+  left: 418px;
+  position: absolute;
+  top: 276px;
+  width: 305px;
+}
+
+.customer-information .customer-details-IrWTSC {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 174px;
+}
+
+.customer-information .group-24-IrWTSC {
+  background-color: transparent;
+  height: calc(100.00% - 41px);
+  left: 0px;
+  position: absolute;
+  top: 41px;
+  width: 100%;
+}
+
+.customer-information .full-name-VyoxSI {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 103px;
+}
+
+.customer-information .number-VyoxSI {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 46px;
+  white-space: nowrap;
+  width: 79px;
+}
+
+.customer-information .email-VyoxSI {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(23.32% - 6px);
+  white-space: nowrap;
+  width: 57px;
+}
+
+.customer-information .address-VyoxSI {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(34.20% - 9px);
+  white-space: nowrap;
+  width: 79px;
+}
+
+.customer-information .id-number-VyoxSI {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(45.08% - 12px);
+  white-space: nowrap;
+  width: 106px;
+}
+
+.customer-information .id-type-VyoxSI {
+  background-color: transparent;
+  bottom: calc(44.04% - 11px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 80px;
+}
+
+.customer-information .card-number-0000-VyoxSI {
+  background-color: transparent;
+  bottom: calc(33.16% - 9px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.customer-information .exp-date-mmyyyy-VyoxSI {
+  background-color: transparent;
+  bottom: calc(21.76% - 6px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 186px;
+}
+
+.customer-information .cvv-VyoxSI {
+  background-color: transparent;
+  bottom: 40px;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 45px;
+}
+
+.customer-information .notes-VyoxSI {
+  background-color: transparent;
+  bottom: -4px;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 59px;
+}
+
+.customer-information .group-25-60pKcd {
+  background-color: transparent;
+  height: 75px;
+  left: 0px;
+  position: absolute;
+  top: 401px;
+  width: 331px;
+}
+
+.customer-information .rectangle-50-Apeqbv {
+  background-color: var(--white);
+  border-radius: 4px;
+  bottom: 0px;
+  height: 50px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.customer-information .customer-email-Apeqbv {
+  background-color: transparent;
+  height: 21px;
+  left: 0px;
+  letter-spacing: 0.11px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.customer-information .enter-email-Apeqbv {
+  background-color: transparent;
+  border: 0;
+  bottom: calc(20.75% - 5px);
+  height: 22px;
+  left: 7px;
+  letter-spacing: 0.05px;
+  line-height: 24px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 17px);
+}
+
+.customer-information .enter-email-Apeqbv::placeholder {
+  color: #70707099;
+}
+
+.customer-information .customer-information-60pKcd {
+  background-color: transparent;
+  height: auto;
+  left: 144px;
   letter-spacing: 0.00px;
   line-height: 50px;
   position: absolute;
-  right: calc(49.82% - 238px);
   text-align: center;
-  top: calc(27.19% - 20px);
+  top: 188px;
   white-space: nowrap;
-  width: 478px;
+  width: auto;
 }
 
-.customer-information .black-copy-pGBa3b {
+.customer-information .black-copy-60pKcd {
   background-color: transparent;
   height: 149px;
+  left: 215px;
   object-fit: cover;
   position: absolute;
-  right: calc(49.90% - 167px);
-  top: 36px;
+  top: 0px;
   width: 335px;
+}
+
+.customer-information .button-raised-f-isabled-primary-60pKcd {
+  background-color: transparent;
+  height: 50px;
+  left: 0px;
+  position: absolute;
+  top: 504px;
+  width: 251px;
+}
+
+.button-raised-f-isabled-primary-60pKcd {
+  height: auto !important;
+  width: auto !important;
 }

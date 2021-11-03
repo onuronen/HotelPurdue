@@ -7,69 +7,67 @@
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
     <link rel="stylesheet" type="text/css" href="../static/css/room-information.css" />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="../static/css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="../static/css/globals.css" />
     <meta name="author" content="AnimaApp.com - Design to code, Automated." />
   </head>
   <body style="margin: 0; background: #ffffff">
     <input type="hidden" id="anPageName" name="page" value="room-information" />
-    <form class="room-information screen" name="form12" action="form12" method="post">
-      <div class="group-12-5Fdaa3">
-        <div class="rectangle-50-hUC7Wv border-1-5px-iron"></div>
-        <div class="room-number-hUC7Wv tahoma-regular-normal-scarpa-flow-16px">Room Number</div>
-        <input
-          class="enter-room-number-hUC7Wv tahoma-regular-normal-dove-gray-16px"
-          name="enter-room-number22"
-          placeholder="Enter room number"
-        />
-      </div>
+    <div class="room-information screen">
       <a href="main-menu.html">
         <div class="core-component-button-standard-5Fdaa3">
           <div class="background-U6w5pt"></div>
           <div class="back-U6w5pt sourcesanspro-semi-bold-white-16px">Back</div>
         </div></a
-      ><a href="javascript:SubmitForm('form12')">
-        <div class="signup-buton-5Fdaa3">
-          <div class="rectangle-148475-geVpYy border-2px-blueberry"></div>
-          <div class="hover-geVpYy smart-layers-pointers hidden"></div>
-          <div class="find-room-geVpYy sourcesanspro-normal-white-18px">Find Room</div>
-        </div></a
       >
-      <div class="group-21-5Fdaa3">
-        <div class="room-details-JoGBwq tahoma-bold-dove-gray-20px">Room Details</div>
-        <div class="group-24-JoGBwq">
-          <div class="room-id-qMTnoo tahoma-regular-normal-dove-gray-20px">Room ID:</div>
-          <div class="room-type-qMTnoo tahoma-regular-normal-dove-gray-20px">Room Type:</div>
-          <div class="room-number-qMTnoo tahoma-regular-normal-dove-gray-20px">Room Number:</div>
-          <div class="rate-qMTnoo tahoma-regular-normal-dove-gray-20px">Rate:</div>
-          <div class="occupancy-qMTnoo tahoma-regular-normal-dove-gray-20px">Occupancy:</div>
-          <div class="status-qMTnoo tahoma-regular-normal-dove-gray-20px">Status:</div>
+      <div class="repeat-grid-18-5Fdaa3">
+        <div class="x02-sRJeUV">
+          <img class="black-copy-0F8SLc" src="../static/img/black---copy-1@1x.png" />
+          <div class="repeat-grid-13-0F8SLc">
+            <div class="x03-HLV7xs">
+              <div class="group-12-Qws9xv">
+                <div class="rectangle-50-SdM3bo border-1-5px-iron"></div>
+                <div class="room-number-SdM3bo tahoma-regular-normal-scarpa-flow-16px">Room Number</div>
+                <input
+                  class="enter-room-number-SdM3bo tahoma-regular-normal-dove-gray-16px"
+                  name="enter-room-number2"
+                  placeholder="Enter room number"
+                />
+              </div>
+              <div class="group-21-Qws9xv">
+                <div class="room-details-dfK0eC tahoma-bold-dove-gray-20px">Room Details</div>
+                <div class="group-24-dfK0eC">
+                  <div class="room-id-kDNP8i tahoma-regular-normal-dove-gray-20px">Room ID:</div>
+                  <div class="room-type-kDNP8i tahoma-regular-normal-dove-gray-20px">Room Type:</div>
+                  <div class="room-number-kDNP8i tahoma-regular-normal-dove-gray-20px">Room Number:</div>
+                  <div class="rate-kDNP8i tahoma-regular-normal-dove-gray-20px">Rate:</div>
+                  <div class="occupancy-kDNP8i tahoma-regular-normal-dove-gray-20px">Occupancy:</div>
+                  <div class="status-kDNP8i tahoma-regular-normal-dove-gray-20px">Status:</div>
+                </div>
+              </div>
+              <div class="room-information-Qws9xv sourcesanspro-semi-bold-dove-gray-50px">Room Information</div>
+              <div class="button-raised-f-isabled-primary-Qws9xv">
+                <button class="mdc-button mdc-button--raised" data-id="anima-widget">
+                  <span class="mdc-button__ripple"></span> <span class="mdc-button__label">Find Room</span>
+                </button>
+                <script>
+                  mdc.autoInit();
+                  new mdc.ripple.MDCRipple(document.querySelector(".button-raised-f-isabled-primary-Qws9xv .mdc-button"));
+                </script>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="room-information-5Fdaa3 sourcesanspro-semi-bold-dove-gray-50px">Room Information</div>
-      <img class="black-copy-5Fdaa3" src="../static/img/black---copy-1@1x.png" />
-    </form>
-    <script>
-      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
-
-      if (!HTMLFormElement.prototype.reportValidity) {
-        HTMLFormElement.prototype.reportValidity = function () {
-          if (this.checkValidity()) return true;
-          var btn = document.createElement("button");
-          this.appendChild(btn);
-          btn.click();
-          this.removeChild(btn);
-          return false;
-        };
-      }
-
-      function SubmitForm(form_name) {
-        var form = document.getElementsByName(form_name)[0];
-        if (form.reportValidity()) {
-          form.submit();
-          if (window.submitted) window.submitted();
-        }
-      }
-    </script>
+    </div>
   </body>
 </html>

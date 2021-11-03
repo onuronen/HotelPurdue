@@ -62,7 +62,7 @@ def make_app():
     def check_in_customer_info():
         first_name = request.headers.get("first_name")
         last_name = request.headers.get("last_name")
-        number = request.headers.get("number")
+        number = request.headers.get("phone_number")
         email = request.headers.get("email")
         street = request.headers.get("street")
         state = request.headers.get("state")
@@ -82,6 +82,11 @@ def make_app():
         exp_date = request.headers.get("expiration_date")
         cvv = request.headers.get("cvv")
 
+        print("full name is " + full_name)
+        print("card number " + card_number)
+        print("exp date " + exp_date)
+        print("cvv " + cvv)
+
         card_update_status = insert_credit_card_information(full_name, card_number,exp_date,cvv)
         if card_update_status is False:
             return jsonify("Error in Credit card number informatio")
@@ -95,18 +100,16 @@ def make_app():
         employee_full_name = request.headers.get("employee_full_name")
 
         # Room Type
-        price = request.headers.get("price")
-        #description = request.headers.get("description")
+        price = request.headers.get("rate")
         max_occupancy = request.headers.get("max_occupancy")
+        room_type = request.headers.get("room_type")
 
-        room_type_status = insert_room_type(price, max_occupancy)
+        room_type_status = insert_room_type(room_type, price, max_occupancy)
         if room_type_status is False:
-            return jsonify("Price or max occupancy can't be empty")
+            return jsonify("Room type,price or max occupancy can't be empty")
         
         #room information
-        room_type = request.headers.get("room_type")
         room_number = request.headers.get("room_number")
-        #description = request.headers.get("description")
 
         room_information_status = insert_room_information(room_type, room_number)
         if room_information_status is False:

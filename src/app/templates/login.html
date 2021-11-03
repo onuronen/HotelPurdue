@@ -7,6 +7,15 @@
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
     <link rel="stylesheet" type="text/css" href="../static/css/login.css" />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="../static/css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="../static/css/globals.css" />
     <meta name="author" content="AnimaApp.com - Design to code, Automated." />
@@ -14,7 +23,7 @@
   <body style="margin: 0; background: #bce0fd">
     <input type="hidden" id="anPageName" name="page" value="login" />
     <div class="container-center-horizontal">
-      <form class="login screen" name="form10" action="form10" method="post">
+      <div class="login screen">
         <div class="group-33-b8DrbD">
           <img class="star-hotel-logostransparent-vLIRLw" src="img/star-hotel-logos-transparent@1x.png" />
           <div class="welcome-to-the-he-button-below-vLIRLw">
@@ -30,35 +39,17 @@
           </div>
         </div>
         <a href="main-menu.html">
-          <div class="signup-buton-b8DrbD">
-            <div class="rectangle-148475-vawCmW border-2px-blueberry"></div>
-            <div class="hover-vawCmW smart-layers-pointers hidden"></div>
-            <div class="login-vawCmW sourcesanspro-normal-white-18px">Login</div>
+          <div id = "new_reservation_creation" class="button-raised-f-isabled-primary-b8DrbD">
+            <button class="mdc-button mdc-button--raised" data-id="anima-widget">
+              <span class="mdc-button__ripple"></span> <span class="mdc-button__label">Login</span>
+            </button>
+            <script>
+              mdc.autoInit();
+              new mdc.ripple.MDCRipple(document.querySelector(".button-raised-f-isabled-primary-b8DrbD .mdc-button"));
+            </script>
           </div></a
         >
-      </form>
+      </div>
     </div>
-    <script>
-      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
-
-      if (!HTMLFormElement.prototype.reportValidity) {
-        HTMLFormElement.prototype.reportValidity = function () {
-          if (this.checkValidity()) return true;
-          var btn = document.createElement("button");
-          this.appendChild(btn);
-          btn.click();
-          this.removeChild(btn);
-          return false;
-        };
-      }
-
-      function SubmitForm(form_name) {
-        var form = document.getElementsByName(form_name)[0];
-        if (form.reportValidity()) {
-          form.submit();
-          if (window.submitted) window.submitted();
-        }
-      }
-    </script>
   </body>
 </html>

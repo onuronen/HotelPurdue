@@ -15,7 +15,7 @@ from src.db.models import Credit_Card_Info
 
 def insert_credit_card_information(full_name, card_number, exp_date, cvv):
     
-    if not full_name or not card_number or not exp_month or not exp_year or not cvv:
+    if not full_name or not card_number or not exp_date or not cvv:
         return False
 
     # check for duplicates - id number has to be unique
@@ -25,9 +25,9 @@ def insert_credit_card_information(full_name, card_number, exp_date, cvv):
 
     data = {
         "full_name": [full_name],
-        "card_number": [card_number],
+        "card_number": card_number,
         "exp_date": [exp_date],
-        "cvv_num": [cvv]
+        "cvv_num": cvv
     }
 
     new_df = pd.DataFrame(data)

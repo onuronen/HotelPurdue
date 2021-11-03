@@ -45,48 +45,66 @@
   width: 36px;
 }
 
-.new-reservation-creation .title-8kYgXk {
+.new-reservation-creation .repeat-grid-22-8kYgXk {
   background-color: transparent;
-  height: 73px;
-  letter-spacing: 0.00px;
-  line-height: 50px;
-  position: absolute;
-  right: calc(49.84% - 181px);
-  text-align: center;
-  top: 224px;
-  white-space: nowrap;
-  width: 364px;
-}
-
-.new-reservation-creation .black-copy-8kYgXk {
-  background-color: transparent;
-  height: 149px;
-  object-fit: cover;
-  position: absolute;
-  right: calc(49.90% - 167px);
-  top: 36px;
-  width: 335px;
-}
-
-.new-reservation-creation .group-43-8kYgXk {
-  background-color: transparent;
-  bottom: calc(48.84% - 423px);
-  height: 867px;
+  height: 1168px;
   position: absolute;
   right: calc(45.77% - 357px);
+  top: 36px;
   width: 779px;
 }
 
-.new-reservation-creation .rectangle-148481-hhIq63 {
+.new-reservation-creation .x08-d9qNsA {
+  background-color: transparent;
+  height: 1168px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 779px;
+}
+
+.new-reservation-creation .new-reservation-DbxXF9 {
+  background-color: transparent;
+  height: auto;
+  left: 187px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 188px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.new-reservation-creation .black-copy-DbxXF9 {
+  background-color: transparent;
+  height: 149px;
+  left: 201px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 335px;
+}
+
+.new-reservation-creation .group-43-DbxXF9 {
+  background-color: transparent;
+  height: 787px;
+  left: 0px;
+  position: absolute;
+  top: 296px;
+  width: 779px;
+}
+
+.new-reservation-creation .rectangle-148481-MzbuTn {
   background-color: var(--white);
-  bottom: calc(38.17% - 118px);
+  bottom: calc(27.82% - 86px);
   height: 309px;
   left: 0px;
   position: absolute;
   width: 100%;
 }
 
-.new-reservation-creation .rectangle-148480-hhIq63 {
+.new-reservation-creation .rectangle-148480-MzbuTn {
   background-color: var(--white);
   height: 334px;
   left: 0px;
@@ -95,7 +113,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .group-34-hhIq63 {
+.new-reservation-creation .group-34-MzbuTn {
   background-color: transparent;
   height: 75px;
   left: 21px;
@@ -104,7 +122,7 @@
   width: 331px;
 }
 
-.new-reservation-creation .rectangle-50-2gWk30 {
+.new-reservation-creation .rectangle-50-CnM4ra {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -114,7 +132,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .full-name-2gWk30 {
+.new-reservation-creation .full-name-CnM4ra {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -127,7 +145,7 @@
   width: 73px;
 }
 
-.new-reservation-creation .enter-first-and-last-name-2gWk30 {
+.new-reservation-creation .enter-first-and-last-name-CnM4ra {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -143,20 +161,20 @@
   width: calc(100.00% - 17px);
 }
 
-.new-reservation-creation .enter-first-and-last-name-2gWk30::placeholder {
+.new-reservation-creation .enter-first-and-last-name-CnM4ra::placeholder {
   color: #70707099;
 }
 
-.new-reservation-creation .group-35-hhIq63 {
+.new-reservation-creation .group-35-MzbuTn {
   background-color: transparent;
   height: 75px;
   left: 21px;
   position: absolute;
-  top: 125px;
+  top: calc(17.56% - 13px);
   width: 331px;
 }
 
-.new-reservation-creation .rectangle-50-Uv9Fw6 {
+.new-reservation-creation .rectangle-50-ECxypT {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -166,7 +184,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .id-number-Uv9Fw6 {
+.new-reservation-creation .id-number-ECxypT {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -179,7 +197,7 @@
   width: 81px;
 }
 
-.new-reservation-creation .enter-id-number-Uv9Fw6 {
+.new-reservation-creation .enter-id-number-ECxypT {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -195,11 +213,11 @@
   width: calc(100.00% - 17px);
 }
 
-.new-reservation-creation .enter-id-number-Uv9Fw6::placeholder {
+.new-reservation-creation .enter-id-number-ECxypT::placeholder {
   color: #70707099;
 }
 
-.new-reservation-creation .group-36-hhIq63 {
+.new-reservation-creation .group-36-MzbuTn {
   background-color: transparent;
   height: 75px;
   position: absolute;
@@ -208,7 +226,7 @@
   width: 331px;
 }
 
-.new-reservation-creation .rectangle-50-e7U8xn {
+.new-reservation-creation .rectangle-50-oemYX9 {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -218,7 +236,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .check-in-date-e7U8xn {
+.new-reservation-creation .check-in-date-oemYX9 {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -231,7 +249,7 @@
   width: 101px;
 }
 
-.new-reservation-creation .enter-check-in-date-e7U8xn {
+.new-reservation-creation .enter-check-in-date-oemYX9 {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -247,20 +265,20 @@
   width: calc(100.00% - 17px);
 }
 
-.new-reservation-creation .enter-check-in-date-e7U8xn::placeholder {
+.new-reservation-creation .enter-check-in-date-oemYX9::placeholder {
   color: #70707099;
 }
 
-.new-reservation-creation .group-37-hhIq63 {
+.new-reservation-creation .group-37-MzbuTn {
   background-color: transparent;
   height: 75px;
   position: absolute;
   right: 65px;
-  top: 125px;
+  top: calc(17.56% - 13px);
   width: 331px;
 }
 
-.new-reservation-creation .rectangle-50-tw7P3c {
+.new-reservation-creation .rectangle-50-bnJJ94 {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -270,7 +288,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .check-out-date-tw7P3c {
+.new-reservation-creation .check-out-date-bnJJ94 {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -283,7 +301,7 @@
   width: 112px;
 }
 
-.new-reservation-creation .enter-check-out-date-tw7P3c {
+.new-reservation-creation .enter-check-out-date-bnJJ94 {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -299,20 +317,20 @@
   width: calc(100.00% - 17px);
 }
 
-.new-reservation-creation .enter-check-out-date-tw7P3c::placeholder {
+.new-reservation-creation .enter-check-out-date-bnJJ94::placeholder {
   color: #70707099;
 }
 
-.new-reservation-creation .group-38-hhIq63 {
+.new-reservation-creation .group-38-MzbuTn {
   background-color: transparent;
   height: 75px;
   left: 22px;
   position: absolute;
-  top: calc(29.04% - 22px);
+  top: calc(32.30% - 24px);
   width: 331px;
 }
 
-.new-reservation-creation .rectangle-50-vAjRCc {
+.new-reservation-creation .rectangle-50-LTaEZV {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -322,7 +340,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .number-of-guests-vAjRCc {
+.new-reservation-creation .number-of-guests-LTaEZV {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -335,7 +353,7 @@
   width: 131px;
 }
 
-.new-reservation-creation .enter-number-of-guests-vAjRCc {
+.new-reservation-creation .enter-number-of-guests-LTaEZV {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -351,20 +369,20 @@
   width: calc(100.00% - 17px);
 }
 
-.new-reservation-creation .enter-number-of-guests-vAjRCc::placeholder {
+.new-reservation-creation .enter-number-of-guests-LTaEZV::placeholder {
   color: #70707099;
 }
 
-.new-reservation-creation .group-39-hhIq63 {
+.new-reservation-creation .group-39-MzbuTn {
   background-color: transparent;
+  bottom: calc(49.02% - 37px);
   height: 75px;
   left: 22px;
   position: absolute;
-  top: calc(45.83% - 34px);
   width: 331px;
 }
 
-.new-reservation-creation .rectangle-50-HxCzpZ {
+.new-reservation-creation .rectangle-50-iC9fDU {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -374,7 +392,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .room-type-HxCzpZ {
+.new-reservation-creation .room-type-iC9fDU {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -387,7 +405,7 @@
   width: 83px;
 }
 
-.new-reservation-creation .enter-room-type-HxCzpZ {
+.new-reservation-creation .enter-room-type-iC9fDU {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -403,20 +421,20 @@
   width: calc(100.00% - 17px);
 }
 
-.new-reservation-creation .enter-room-type-HxCzpZ::placeholder {
+.new-reservation-creation .enter-room-type-iC9fDU::placeholder {
   color: #70707099;
 }
 
-.new-reservation-creation .group-40-hhIq63 {
+.new-reservation-creation .group-40-MzbuTn {
   background-color: transparent;
-  bottom: 80px;
+  bottom: 0px;
   height: 124px;
   left: 15px;
   position: absolute;
   width: calc(100.00% - 85px);
 }
 
-.new-reservation-creation .rectangle-50-iyuRyx {
+.new-reservation-creation .rectangle-50-ShpxtZ {
   background-color: var(--white);
   border-radius: 4px;
   height: calc(100.00% - 25px);
@@ -426,7 +444,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .notes-iyuRyx {
+.new-reservation-creation .notes-ShpxtZ {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -439,7 +457,7 @@
   width: 43px;
 }
 
-.new-reservation-creation .enter-notes-iyuRyx {
+.new-reservation-creation .enter-notes-ShpxtZ {
   background-color: transparent;
   border: 0;
   bottom: 9px;
@@ -454,112 +472,20 @@
   width: calc(100.00% - 14px);
 }
 
-.new-reservation-creation .enter-notes-iyuRyx::placeholder {
+.new-reservation-creation .enter-notes-ShpxtZ::placeholder {
   color: #70707099;
 }
 
-.new-reservation-creation .signup-buton-hhIq63 {
+.new-reservation-creation .group-41-MzbuTn {
   background-color: transparent;
-  bottom: 0px;
-  cursor: pointer;
-  height: 50px;
-  left: 15px;
-  position: absolute;
-  width: 246px;
-}
-
-.new-reservation-creation .rectangle-148475-4ycYfI {
-  background-color: var(--blueberry);
-  border-radius: 4px;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.new-reservation-creation .hover-4ycYfI {
-  background-color: var(--royal-blue);
-  border-radius: 4px;
-  cursor: pointer;
-  height: 100%;
-  left: 0px;
-  opacity: 0;
-  pointer-events: auto;
-  position: absolute;
-  top: 0px;
-  transition: all 0.2s ease;
-  width: 100%;
-}
-
-.new-reservation-creation .hover-4ycYfI:hover {
-  opacity: 1;
-}
-
-.new-reservation-creation .new-customer-4ycYfI {
-  background-color: transparent;
-  bottom: calc(28.26% - 8px);
-  height: 27px;
-  letter-spacing: 0.13px;
-  line-height: 18px;
-  position: absolute;
-  right: calc(49.24% - 56px);
-  text-align: center;
-  white-space: nowrap;
-  width: 114px;
-}
-
-.new-reservation-creation .rectangle-148479-4ycYfI {
-  background-color: var(--blueberry);
-  border-radius: 4px;
-  height: 100%;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.new-reservation-creation .hover-eR2PNB {
-  background-color: var(--royal-blue);
-  border-radius: 4px;
-  cursor: pointer;
-  height: 100%;
-  left: 0px;
-  opacity: 0;
-  pointer-events: auto;
-  position: absolute;
-  top: 0px;
-  transition: all 0.2s ease;
-  width: 100%;
-}
-
-.new-reservation-creation .hover-eR2PNB:hover {
-  opacity: 1;
-}
-
-.new-reservation-creation .complete-reservation-4ycYfI {
-  background-color: transparent;
-  bottom: calc(28.26% - 8px);
-  height: 27px;
-  letter-spacing: 0.13px;
-  line-height: 18px;
-  position: absolute;
-  right: calc(48.68% - 83px);
-  text-align: center;
-  white-space: nowrap;
-  width: 170px;
-}
-
-.new-reservation-creation .group-41-hhIq63 {
-  background-color: transparent;
-  bottom: calc(42.55% - 32px);
+  bottom: calc(36.10% - 27px);
   height: 75px;
   left: 22px;
   position: absolute;
   width: 331px;
 }
 
-.new-reservation-creation .rectangle-50-MbATAM {
+.new-reservation-creation .rectangle-50-KExHz9 {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -569,7 +495,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .employee-full-name-MbATAM {
+.new-reservation-creation .employee-full-name-KExHz9 {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -582,7 +508,7 @@
   width: 148px;
 }
 
-.new-reservation-creation .enter-employee-full-name-MbATAM {
+.new-reservation-creation .enter-employee-full-name-KExHz9 {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -598,20 +524,20 @@
   width: calc(100.00% - 17px);
 }
 
-.new-reservation-creation .enter-employee-full-name-MbATAM::placeholder {
+.new-reservation-creation .enter-employee-full-name-KExHz9::placeholder {
   color: #70707099;
 }
 
-.new-reservation-creation .group-42-hhIq63 {
+.new-reservation-creation .group-42-MzbuTn {
   background-color: transparent;
+  bottom: calc(49.30% - 37px);
   height: 75px;
   position: absolute;
   right: 65px;
-  top: calc(45.58% - 34px);
   width: 331px;
 }
 
-.new-reservation-creation .rectangle-50-OG839H {
+.new-reservation-creation .rectangle-50-Tsj9Ld {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -621,7 +547,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .room-number-OG839H {
+.new-reservation-creation .room-number-Tsj9Ld {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -634,7 +560,7 @@
   width: 105px;
 }
 
-.new-reservation-creation .enter-room-number-OG839H {
+.new-reservation-creation .enter-room-number-Tsj9Ld {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -650,20 +576,20 @@
   width: calc(100.00% - 17px);
 }
 
-.new-reservation-creation .enter-room-number-OG839H::placeholder {
+.new-reservation-creation .enter-room-number-Tsj9Ld::placeholder {
   color: #70707099;
 }
 
-.new-reservation-creation .group-44-hhIq63 {
+.new-reservation-creation .group-44-MzbuTn {
   background-color: transparent;
-  bottom: calc(42.55% - 32px);
+  bottom: calc(36.10% - 27px);
   height: 75px;
   position: absolute;
   right: 65px;
   width: 331px;
 }
 
-.new-reservation-creation .rectangle-50-32nM5d {
+.new-reservation-creation .rectangle-50-VgKUCV {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -673,7 +599,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .rate-32nM5d {
+.new-reservation-creation .rate-VgKUCV {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -686,7 +612,7 @@
   width: 34px;
 }
 
-.new-reservation-creation .enter-rooms-rate-32nM5d {
+.new-reservation-creation .enter-rooms-rate-VgKUCV {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -702,20 +628,20 @@
   width: calc(100.00% - 17px);
 }
 
-.new-reservation-creation .enter-rooms-rate-32nM5d::placeholder {
+.new-reservation-creation .enter-rooms-rate-VgKUCV::placeholder {
   color: #70707099;
 }
 
-.new-reservation-creation .group-45-hhIq63 {
+.new-reservation-creation .group-45-MzbuTn {
   background-color: transparent;
-  bottom: calc(30.68% - 23px);
+  bottom: calc(22.89% - 17px);
   height: 75px;
   position: absolute;
   right: 65px;
   width: 331px;
 }
 
-.new-reservation-creation .rectangle-50-Stx9uo {
+.new-reservation-creation .rectangle-50-8KE7wX {
   background-color: var(--white);
   border-radius: 4px;
   bottom: 0px;
@@ -725,7 +651,7 @@
   width: 100%;
 }
 
-.new-reservation-creation .max-occupancy-Stx9uo {
+.new-reservation-creation .max-occupancy-8KE7wX {
   background-color: transparent;
   height: 21px;
   left: 0px;
@@ -738,7 +664,7 @@
   width: 114px;
 }
 
-.new-reservation-creation .enter-rooms-max-occupancy-Stx9uo {
+.new-reservation-creation .enter-rooms-max-occupancy-8KE7wX {
   background-color: transparent;
   border: 0;
   bottom: calc(20.75% - 5px);
@@ -754,6 +680,21 @@
   width: calc(100.00% - 17px);
 }
 
-.new-reservation-creation .enter-rooms-max-occupancy-Stx9uo::placeholder {
+.new-reservation-creation .enter-rooms-max-occupancy-8KE7wX::placeholder {
   color: #70707099;
+}
+
+.new-reservation-creation .button-raised-f-isabled-primary-DbxXF9 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 49px;
+  left: 16px;
+  position: absolute;
+  top: 1119px;
+  width: 314px;
+}
+
+.button-raised-f-isabled-primary-DbxXF9 {
+  height: auto !important;
+  width: auto !important;
 }

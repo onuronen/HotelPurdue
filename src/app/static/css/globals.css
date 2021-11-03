@@ -13,6 +13,17 @@
   font-weight: 700;
   src: url("fonts/Tahoma Bold.ttf") format("truetype");
 }
+:root {
+  --mdc-theme-background: #fff;
+  --mdc-theme-error: #b00020;
+  --mdc-theme-on-error: #fff;
+  --mdc-theme-on-primary: #fff;
+  --mdc-theme-on-secondary: #fff;
+  --mdc-theme-on-surface: #000;
+  --mdc-theme-primary: #4e6ffc;
+  --mdc-theme-secondary: #018786;
+  --mdc-theme-surface: #fff;
+}
 
 .screen textarea:focus,
 .screen input:focus {
@@ -48,12 +59,6 @@
 
 input:focus {
   outline: none;
-}
-
-.smart-layers-pointers,
-.smart-layers-pointers * {
-  pointer-events: auto;
-  visibility: visible;
 }
 
 * {

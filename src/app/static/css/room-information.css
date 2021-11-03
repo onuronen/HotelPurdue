@@ -12,58 +12,6 @@
   width: 100%;
 }
 
-.room-information .group-12-5Fdaa3 {
-  background-color: transparent;
-  height: 75px;
-  left: calc(28.62% - 95px);
-  position: absolute;
-  top: calc(46.10% - 35px);
-  width: 331px;
-}
-
-.room-information .rectangle-50-hUC7Wv {
-  background-color: var(--white);
-  border-radius: 4px;
-  bottom: 0px;
-  height: 50px;
-  left: 0px;
-  position: absolute;
-  width: 100%;
-}
-
-.room-information .room-number-hUC7Wv {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  letter-spacing: 0.11px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: 105px;
-}
-
-.room-information .enter-room-number-hUC7Wv {
-  background-color: transparent;
-  border: 0;
-  bottom: calc(20.75% - 5px);
-  height: 22px;
-  left: 7px;
-  letter-spacing: 0.05px;
-  line-height: 24px;
-  padding: 0;
-  position: absolute;
-  resize: none;
-  text-align: left;
-  white-space: nowrap;
-  width: calc(100.00% - 17px);
-}
-
-.room-information .enter-room-number-hUC7Wv::placeholder {
-  color: #70707099;
-}
-
 .room-information .core-component-button-standard-5Fdaa3 {
   background-color: transparent;
   cursor: pointer;
@@ -97,67 +45,114 @@
   width: 36px;
 }
 
-.room-information .signup-buton-5Fdaa3 {
+.room-information .repeat-grid-18-5Fdaa3 {
   background-color: transparent;
-  bottom: calc(44.02% - 22px);
-  cursor: pointer;
+  height: 590px;
+  left: calc(38.05% - 217px);
+  position: absolute;
+  top: 36px;
+  width: 571px;
+}
+
+.room-information .x02-sRJeUV {
+  background-color: transparent;
+  height: 590px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 571px;
+}
+
+.room-information .black-copy-0F8SLc {
+  background-color: transparent;
+  height: 149px;
+  left: 206px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 335px;
+}
+
+.room-information .repeat-grid-13-0F8SLc {
+  background-color: transparent;
+  height: 413px;
+  left: 0px;
+  position: absolute;
+  top: 177px;
+  width: 571px;
+}
+
+.room-information .x03-HLV7xs {
+  background-color: transparent;
+  height: 413px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 572px;
+}
+
+.room-information .group-12-Qws9xv {
+  background-color: transparent;
+  height: 75px;
+  left: 0px;
+  position: absolute;
+  top: 165px;
+  width: 331px;
+}
+
+.room-information .rectangle-50-SdM3bo {
+  background-color: var(--white);
+  border-radius: 4px;
+  bottom: 0px;
   height: 50px;
-  left: calc(28.69% - 95px);
-  position: absolute;
-  width: 330px;
-}
-
-.room-information .rectangle-148475-geVpYy {
-  background-color: var(--blueberry);
-  border-radius: 4px;
-  height: 100%;
   left: 0px;
   position: absolute;
-  top: 0px;
   width: 100%;
 }
 
-.room-information .hover-geVpYy {
-  background-color: var(--royal-blue);
-  border-radius: 4px;
-  cursor: pointer;
-  height: 100%;
-  left: 0px;
-  opacity: 0;
-  pointer-events: auto;
-  position: absolute;
-  top: 0px;
-  transition: all 0.2s ease;
-  width: 100%;
-}
-
-.room-information .hover-geVpYy:hover {
-  opacity: 1;
-}
-
-.room-information .find-room-geVpYy {
+.room-information .room-number-SdM3bo {
   background-color: transparent;
-  bottom: calc(28.26% - 8px);
-  height: 27px;
-  letter-spacing: 0.13px;
-  line-height: 18px;
+  height: 21px;
+  left: 0px;
+  letter-spacing: 0.11px;
+  line-height: 16px;
   position: absolute;
-  right: calc(49.59% - 42px);
-  text-align: center;
+  text-align: left;
+  top: 2px;
   white-space: nowrap;
-  width: 84px;
+  width: 105px;
 }
 
-.room-information .group-21-5Fdaa3 {
+.room-information .enter-room-number-SdM3bo {
   background-color: transparent;
-  bottom: calc(43.39% - 119px);
-  height: 275px;
+  border: 0;
+  bottom: calc(20.75% - 5px);
+  height: 22px;
+  left: 7px;
+  letter-spacing: 0.05px;
+  line-height: 24px;
+  padding: 0;
   position: absolute;
-  right: calc(40.34% - 54px);
-  width: 134px;
+  resize: none;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 17px);
 }
 
-.room-information .room-details-JoGBwq {
+.room-information .enter-room-number-SdM3bo::placeholder {
+  color: #70707099;
+}
+
+.room-information .group-21-Qws9xv {
+  background-color: transparent;
+  height: 275px;
+  left: 418px;
+  position: absolute;
+  top: 138px;
+  width: 136px;
+}
+
+.room-information .room-details-dfK0eC {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -170,7 +165,7 @@
   width: calc(100.00% + 2px);
 }
 
-.room-information .group-24-JoGBwq {
+.room-information .group-24-dfK0eC {
   background-color: transparent;
   height: calc(100.00% - 41px);
   left: 0px;
@@ -179,7 +174,7 @@
   width: calc(100.00% - 2px);
 }
 
-.room-information .room-id-qMTnoo {
+.room-information .room-id-kDNP8i {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -192,7 +187,7 @@
   width: 87px;
 }
 
-.room-information .room-type-qMTnoo {
+.room-information .room-type-kDNP8i {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -205,7 +200,7 @@
   width: 109px;
 }
 
-.room-information .room-number-qMTnoo {
+.room-information .room-number-kDNP8i {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -218,7 +213,7 @@
   width: calc(100.00% + 2px);
 }
 
-.room-information .rate-qMTnoo {
+.room-information .rate-kDNP8i {
   background-color: transparent;
   bottom: calc(38.46% - 10px);
   height: 26px;
@@ -231,7 +226,7 @@
   width: 49px;
 }
 
-.room-information .occupancy-qMTnoo {
+.room-information .occupancy-kDNP8i {
   background-color: transparent;
   bottom: calc(18.27% - 5px);
   height: 26px;
@@ -244,7 +239,7 @@
   width: 111px;
 }
 
-.room-information .status-qMTnoo {
+.room-information .status-kDNP8i {
   background-color: transparent;
   bottom: -4px;
   height: 26px;
@@ -257,25 +252,29 @@
   width: 64px;
 }
 
-.room-information .room-information-5Fdaa3 {
+.room-information .room-information-Qws9xv {
   background-color: transparent;
-  height: 73px;
+  height: auto;
+  left: 176px;
   letter-spacing: 0.00px;
   line-height: 50px;
   position: absolute;
-  right: calc(49.83% - 197px);
   text-align: center;
-  top: calc(27.19% - 20px);
+  top: 10px;
   white-space: nowrap;
-  width: 396px;
+  width: auto;
 }
 
-.room-information .black-copy-5Fdaa3 {
+.room-information .button-raised-f-isabled-primary-Qws9xv {
   background-color: transparent;
-  height: 149px;
-  object-fit: cover;
+  height: 50px;
+  left: 0px;
   position: absolute;
-  right: calc(49.90% - 167px);
-  top: 36px;
-  width: 335px;
+  top: 264px;
+  width: 172px;
+}
+
+.button-raised-f-isabled-primary-Qws9xv {
+  height: auto !important;
+  width: auto !important;
 }

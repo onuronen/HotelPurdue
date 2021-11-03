@@ -1,11 +1,8 @@
 //url = "https://hotel-purdue.herokuapp.com/"
 url = "http://127.0.0.1:5000/"
 
-document.querySelector("#new_reservation_creation").addEventListener("submit", function(evt) {
-    //evt.preventDefault();
-
-    //document.querySelector(".form_error").innerHTML = null;
-
+document.querySelector("#new_reservation_creation").addEventListener("click", function(evt) {
+    
     var full_name = document.getElementById("full_name").value;
     var id_number= document.getElementById("id_number").value;
     var check_in = document.getElementById("check_in").value;

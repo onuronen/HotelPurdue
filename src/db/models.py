@@ -2,6 +2,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 import datetime as dt
 from sqlalchemy import(
+    Table,
     Column,
     Boolean,
     String,
@@ -24,20 +25,22 @@ class Credit_Card_Info(Base):
     card_number = Column(Integer, nullable=False)
     exp_date = Column(String, nullable=False)
     cvv_num = Column(Integer, nullable=False)
-    Children = relationship("Bill")
+    #Children = relationship("Bill")
 
 class Bill(Base):
     __tablename__ = "bill"
     bill_id = Column(Integer, primary_key=True, autoincrement=True)
-    customer_id = Column(Integer, ForeignKey('customer.customer_id'))
-    reservation_id = Column(Integer, ForeignKey('reservation.reservation_id'))
+    #customer_id = Column(Integer, ForeignKey('customer.customer_id'))
+    #reservation_id = Column(Integer, ForeignKey('reservation.reservation_id'))
     bill_date = Column(Date, nullable=False)
     room_charge = Column(Integer, nullable=False)
     bar_charge = Column(Integer, nullable=True)
     misc_charge = Column(Integer, nullable=True)
     payment_date = Column(Date, nullable=True)
-    card_id = Column(Integer, ForeignKey('credit_card_information.card_id'))
+    #card_id = Column(Integer, ForeignKey('credit_card_information.card_id'))
     notes = Column(String, nullable = True)
+
+
 
 
 class Customer(Base):
@@ -53,45 +56,43 @@ class Customer(Base):
     id_number = Column(Integer, nullable=False)
     doc_type = Column(String, nullable=False)
     notes = Column(String, nullable=True)
-    Children = relationship("Reservation", "Bill")
+    #Children = relationship("Reservation", "Bill")
 
 
 class Reservation(Base):
     __tablename__ = "reservation"
     reservation_id = Column (Integer, primary_key=True, autoincrement=True)
-    room_id = Column(Integer, ForeignKey('room_information.room_id'))
-    customer_id = Column(Integer, ForeignKey('customer.customer_id'))
-    start_date = Column(Date, nullable=False)
-    end_date = Column(TIMESTAMP, nullable=False)
+    #room_id = Column(Integer, ForeignKey('room_information.room_id'))
+    #customer_id = Column(Integer, ForeignKey('customer.customer_id'))
+    start_date = Column(String, nullable=False)
+    end_date = Column(String, nullable=False)
     reservation_date = Column(TIMESTAMP, nullable=False)
     guest_number = Column(Integer, nullable=False)
-    employee_id = Column(Integer, ForeignKey('employee.employee_id'))
+    #employee_id = Column(Integer, ForeignKey('employee.employee_id'))
     notes = Column(String, nullable=True)
-    Children = relationship("Bill")
+    #Children = relationship("Bill")
 
 
 class Employee(Base):
     __tablename__ = "employee"
     employee_id = Column (Integer, primary_key=True, autoincrement=True)
     emp_fullname = Column(String, nullable=False)
-    Children = relationship("Reservation")
+    #Children = relationship("Reservation")
 
 
 class Room_Information(Base):
     __tablename__ = "room_information"
     room_id = Column (Integer, primary_key=True, autoincrement=True)
-    room_type = Column(String, ForeignKey('room_type.type_room'))
+    #room_type = Column(String, ForeignKey('room_type.type_room'))
     room_number = Column(Integer, nullable=False)
-    #description = Column(String, nullable=True)
-    Children = relationship("Reservation")
+    #Children = relationship("Reservation")
 
 class Room_Type(Base):
     __tablename__ = "room_type"
     type_room = Column(String, primary_key=True, nullable=False)
     price = Column(Integer, nullable=False)
-    #description = Column(String, nullable=True)
     max_occupancy = Column(Integer, nullable =False)
-    Children = relationship("Room_Information")
+    #Children = relationship("Room_Information")
 
 
 

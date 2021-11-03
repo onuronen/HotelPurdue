@@ -7,59 +7,58 @@
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
     <link rel="stylesheet" type="text/css" href="../static/css/customer-checkout.css" />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="../static/css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="../static/css/globals.css" />
     <meta name="author" content="AnimaApp.com - Design to code, Automated." />
   </head>
   <body style="margin: 0; background: #ffffff">
     <input type="hidden" id="anPageName" name="page" value="customer-checkout" />
-    <form class="customer-checkout screen" name="form11" action="form11" method="post">
+    <div class="customer-checkout screen">
       <a href="main-menu.html">
         <div class="core-component-button-standard-10xrHs">
           <div class="background-UdkBzb"></div>
           <div class="back-UdkBzb sourcesanspro-semi-bold-white-16px">Back</div>
         </div></a
       >
-      <div class="full-name-10xrHs">
-        <div class="rectangle-50-R1MUVN border-1-5px-iron"></div>
-        <div class="room-number-R1MUVN tahoma-regular-normal-scarpa-flow-16px">Room Number</div>
-        <input
-          class="enter-room-number-R1MUVN tahoma-regular-normal-dove-gray-16px"
-          name="enter-room-number21"
-          placeholder="Enter room number"
-        />
+      <div class="repeat-grid-17-10xrHs">
+        <div class="x07-MJahJV">
+          <div class="customer-checkout-JGYxAY sourcesanspro-semi-bold-dove-gray-50px">Customer Checkout</div>
+          <img class="black-copy-JGYxAY" src="img/black---copy-1@1x.png" />
+          <div class="repeat-grid-14-JGYxAY">
+            <div class="group-46-xYpb5A">
+              <div class="full-name-Wd4kVt">
+                <div class="rectangle-50-OxGJ8b border-1-5px-iron"></div>
+                <div class="room-number-OxGJ8b tahoma-regular-normal-scarpa-flow-16px">Room Number</div>
+                <input
+                  class="enter-room-number-OxGJ8b tahoma-regular-normal-dove-gray-16px"
+                  name="enter-room-number22"
+                  placeholder="Enter room number"
+                />
+              </div>
+              <a href="generated-bill.html">
+                <div class="button-raised-f-isabled-primary-Wd4kVt">
+                  <button class="mdc-button mdc-button--raised" data-id="anima-widget">
+                    <span class="mdc-button__ripple"></span> <span class="mdc-button__label">Generate Bill</span>
+                  </button>
+                  <script>
+                    mdc.autoInit();
+                    new mdc.ripple.MDCRipple(document.querySelector(".button-raised-f-isabled-primary-Wd4kVt .mdc-button"));
+                  </script>
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
       </div>
-      <a href="generated-bill.html">
-        <div class="signup-buton-10xrHs">
-          <div class="rectangle-148475-gNJ59h border-2px-blueberry"></div>
-          <div class="hover-gNJ59h smart-layers-pointers hidden"></div>
-          <div class="generate-bill-gNJ59h sourcesanspro-normal-white-18px">Generate Bill</div>
-        </div></a
-      >
-      <div class="customer-checkout-10xrHs sourcesanspro-semi-bold-dove-gray-50px">Customer Checkout</div>
-      <img class="black-copy-10xrHs" src="../static/img/black---copy-1@1x.png" />
-    </form>
-    <script>
-      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
-
-      if (!HTMLFormElement.prototype.reportValidity) {
-        HTMLFormElement.prototype.reportValidity = function () {
-          if (this.checkValidity()) return true;
-          var btn = document.createElement("button");
-          this.appendChild(btn);
-          btn.click();
-          this.removeChild(btn);
-          return false;
-        };
-      }
-
-      function SubmitForm(form_name) {
-        var form = document.getElementsByName(form_name)[0];
-        if (form.reportValidity()) {
-          form.submit();
-          if (window.submitted) window.submitted();
-        }
-      }
-    </script>
+    </div>
   </body>
 </html>

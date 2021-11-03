@@ -15,14 +15,15 @@ from src.db.crud import (
 from src.db.models import Room_Type
 
 
-def insert_room_type(price, max_occupancy):
+def insert_room_type(room_type, price, max_occupancy):
     
     if not price or not max_occupancy:
         return False
 
     data = {
+        "type_room": room_type,
         "price": [price],
-        "max_occupacy": [max_occupancy]
+        "max_occupancy": [max_occupancy]
     }
 
     new_df = pd.DataFrame(data)
