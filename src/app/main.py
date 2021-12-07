@@ -12,8 +12,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.db.crud import fetch_customer_by_id, fetch_customer_by_card_number
 from src.db.customer_utils import insert_customer_information
 from src.db.credit_card_utils import insert_credit_card_information
-from src.db.room_information_utils import insert_room_information
-from src.db.room_type_utils import insert_room_type
+from src.db.room_information_utils import insert_room_information, fetch_room_information
 from src.db.reservation_utils import insert_reservation_information
 from src.db.employee_utils import insert_employee_information
 
@@ -98,20 +97,15 @@ def make_app():
     @app.route("/customer_room_check_in", methods=["POST"])
     def check_in_room_info():
         employee_full_name = request.headers.get("employee_full_name")
+        customer_full_name = request.headers.get("full_name")
 
-        # Room Type
+        # Room Information
         price = request.headers.get("rate")
         max_occupancy = request.headers.get("max_occupancy")
         room_type = request.headers.get("room_type")
-
-        room_type_status = insert_room_type(room_type, price, max_occupancy)
-        if room_type_status is False:
-            return jsonify("Room type,price or max occupancy can't be empty")
-        
-        #room information
         room_number = request.headers.get("room_number")
 
-        room_information_status = insert_room_information(room_type, room_number)
+        room_information_status = insert_room_information(customer_full_name, room_number, room_type, price, max_occupancy)
         if room_information_status is False:
             return jsonify("Error in room information")
 
@@ -126,11 +120,20 @@ def make_app():
         if employee_status is False:
             return jsonify("Employee fullname can't be null")
 
-        reservation_status = insert_reservation_information(start_date,end_date,reservation_date,guest_number,notes)
+        reservation_status = insert_reservation_information(customer_full_name,start_date,end_date,reservation_date,guest_number,notes)
         if reservation_status is False:
             return jsonify("Error in reservation status")
         
         return jsonify("success")
+
+    
+    @app.route("/room_lookup", methods=["POST"])
+    def lookup_room_info():
+        room_number = request.headers.get("room_number")
+        result = fetch_room_information(room_number)
+        return jsonify(result)
+    
+
 
 
     return app
