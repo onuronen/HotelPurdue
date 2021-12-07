@@ -174,7 +174,12 @@
   width: calc(100.00% - 2px);
 }
 
-.room-information .room-id-kDNP8i {
+.inline_room_id {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.room-information .inline_room_id .room-id-kDNP8i {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -184,7 +189,25 @@
   text-align: left;
   top: 2px;
   white-space: nowrap;
-  width: 87px;
+  width: 50%;
+}
+
+.room-information .inline_room_id .rooms_id {
+  background-color: transparent;
+  height: 26px;
+  left: 90px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 50%;
+}
+
+.inline_room_type {
+  border: 3px solid #fff;
+  padding: 20px;
 }
 
 .room-information .room-type-kDNP8i {
@@ -200,6 +223,24 @@
   width: 109px;
 }
 
+.room-information .inline_room_type .rooms_type {
+  background-color: transparent;
+  height: 26px;
+  left: 110px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(21.15% - 6px);
+  white-space: nowrap;
+  width: 50%;
+}
+
+.inline_room_number {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
 .room-information .room-number-kDNP8i {
   background-color: transparent;
   height: 26px;
@@ -211,6 +252,24 @@
   top: calc(41.35% - 11px);
   white-space: nowrap;
   width: calc(100.00% + 2px);
+}
+
+.room-information .inline_room_number .rooms_number {
+  background-color: transparent;
+  height: 26px;
+  left: 140px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(41.35% - 11px);
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.inline_room_rate {
+  border: 3px solid #fff;
+  padding: 20px;
 }
 
 .room-information .rate-kDNP8i {
@@ -226,6 +285,24 @@
   width: 49px;
 }
 
+.room-information .inline_room_rate .rooms_rate {
+  background-color: transparent;
+  bottom: calc(38.46% - 10px);
+  height: 26px;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 49px;
+}
+
+.inline_room_occupancy {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
 .room-information .occupancy-kDNP8i {
   background-color: transparent;
   bottom: calc(18.27% - 5px);
@@ -238,6 +315,22 @@
   white-space: nowrap;
   width: 111px;
 }
+
+.room-information .rooms_occupancy {
+  background-color: transparent;
+  bottom: calc(18.27% - 5px);
+  height: 26px;
+  left: 110px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 111px;
+}
+
+
+
 
 .room-information .status-kDNP8i {
   background-color: transparent;
