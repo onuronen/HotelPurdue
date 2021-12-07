@@ -30,6 +30,7 @@ class Credit_Card_Info(Base):
 class Bill(Base):
     __tablename__ = "bill"
     bill_id = Column(Integer, primary_key=True, autoincrement=True)
+    full_name = Column(String, nullable = False)
     #customer_id = Column(Integer, ForeignKey('customer.customer_id'))
     #reservation_id = Column(Integer, ForeignKey('reservation.reservation_id'))
     bill_date = Column(Date, nullable=False)
@@ -39,9 +40,6 @@ class Bill(Base):
     payment_date = Column(Date, nullable=True)
     #card_id = Column(Integer, ForeignKey('credit_card_information.card_id'))
     notes = Column(String, nullable = True)
-
-
-
 
 class Customer(Base):
     __tablename__ = "customer"
@@ -62,6 +60,7 @@ class Customer(Base):
 class Reservation(Base):
     __tablename__ = "reservation"
     reservation_id = Column (Integer, primary_key=True, autoincrement=True)
+    full_name = Column(String, nullable = False)
     #room_id = Column(Integer, ForeignKey('room_information.room_id'))
     #customer_id = Column(Integer, ForeignKey('customer.customer_id'))
     start_date = Column(String, nullable=False)
@@ -83,16 +82,13 @@ class Employee(Base):
 class Room_Information(Base):
     __tablename__ = "room_information"
     room_id = Column (Integer, primary_key=True, autoincrement=True)
+    full_name = Column(String, nullable = False)
     #room_type = Column(String, ForeignKey('room_type.type_room'))
     room_number = Column(Integer, nullable=False)
     #Children = relationship("Reservation")
-
-class Room_Type(Base):
-    __tablename__ = "room_type"
-    type_room = Column(String, primary_key=True, nullable=False)
+    room_type = Column(String, primary_key=True, nullable=False)
     price = Column(Integer, nullable=False)
     max_occupancy = Column(Integer, nullable =False)
-    #Children = relationship("Room_Information")
 
 
 

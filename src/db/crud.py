@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-from src.db.models import Base, Credit_Card_Info, Bill, Customer, Reservation, Employee, Room_Information, Room_Type
+from src.db.models import Base, Credit_Card_Info, Bill, Customer, Reservation, Employee, Room_Information
 from src.app.config import postgres_config
 
 logger = logging.getLogger(__name__)

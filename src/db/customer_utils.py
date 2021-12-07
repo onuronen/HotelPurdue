@@ -20,7 +20,7 @@ def insert_customer_information(first_name, last_name,number, email, street, sta
     if not first_name or not last_name or not number or not email or not street or not state or not country or not doc_type:
         return False
 
-    
+
     # check for duplicates - id number has to be unique
     id_df = fetch_customer_by_id(id_number)
     if not id_df.empty:
@@ -43,8 +43,6 @@ def insert_customer_information(first_name, last_name,number, email, street, sta
     new_df = pd.DataFrame(data)
     update_table(new_df, Customer)
     return True
-    
-
 
 
     

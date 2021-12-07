@@ -15,7 +15,7 @@ from src.db.crud import (
 
 from src.db.models import Room_Information
 
-def insert_room_information(room_type, room_number):
+def insert_room_information(full_name, room_number, room_type, price, max_occupancy):
     
     if not room_type or not room_number:
         return False
@@ -26,10 +26,26 @@ def insert_room_information(room_type, room_number):
         return False
 
     data = {
-        "room_type": [room_type],
-        "room_number": [room_number]
+        "full_name": [full_name],
+        "room_number": [room_number],
+        "room_type": room_type,
+        "price": [price],
+        "max_occupancy": [max_occupancy]
     }
 
     new_df = pd.DataFrame(data)
     update_table(new_df, Room_Information)
     return True
+
+
+def fetch_room_information(room_number):
+    if not room_number:
+        return False
+
+    room_number_df = fetch_customer_by_room_number(room_number).to_dict("records")
+    return room_number_df
+    
+
+    
+
+    
