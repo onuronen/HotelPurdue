@@ -10,7 +10,7 @@ document.querySelector("#res_lookup").addEventListener("click", function(evt) {
         return;
     }
 
-    fetch(url + "customer_lookup", {
+    fetch(url + "reservation_lookup", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json',

@@ -13,7 +13,7 @@ from src.db.crud import fetch_customer_by_id, fetch_customer_by_card_number
 from src.db.customer_utils import insert_customer_information, fetch_customer_information
 from src.db.credit_card_utils import insert_credit_card_information, fetch_card_information
 from src.db.room_information_utils import insert_room_information, fetch_room_information
-from src.db.reservation_utils import insert_reservation_information
+from src.db.reservation_utils import insert_reservation_information,fetch_reservation_information
 from src.db.employee_utils import insert_employee_information
 
 def make_app():
