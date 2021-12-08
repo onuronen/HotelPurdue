@@ -10,8 +10,8 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.db.crud import fetch_customer_by_id, fetch_customer_by_card_number
-from src.db.customer_utils import insert_customer_information
-from src.db.credit_card_utils import insert_credit_card_information
+from src.db.customer_utils import insert_customer_information, fetch_customer_information
+from src.db.credit_card_utils import insert_credit_card_information, fetch_card_information
 from src.db.room_information_utils import insert_room_information, fetch_room_information
 from src.db.reservation_utils import insert_reservation_information
 from src.db.employee_utils import insert_employee_information
@@ -133,13 +133,27 @@ def make_app():
         result = fetch_room_information(room_number)
         return jsonify(result)
     
+    @app.route("/customer_lookup", methods=["POST"])
+    def lookup_customer_info():
+        full_name = request.headers.get("full_name")
+        email = request.headers.get("email")
+        dict1 = fetch_customer_information(email)[0]
+        dict2 = fetch_card_information(full_name)[0]
+        dict2.update(dict1)
+
+        return jsonify(dict2)
+
+
+    @app.route("/reservation_lookup", methods=["POST"])
+    def lookup_customer_info():
+        room_number = request.headers.get("room_number")
+        check_in = request.headers.get("check_in")
+
+        return jsonify('a')
 
 
 
     return app
 
-@app.route("customer_lookup", methods=["POST"])
-    def lookup_customer_info():
-        full_name = request.headers.get("full_name")
-        return jsonify("success")
+    
 

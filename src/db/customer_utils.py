@@ -11,10 +11,12 @@ from src.db.crud import (
     update_table,
     fetch_rows,
     fetch_customer_by_id,
-    fetch_customer_by_full_name
+    fetch_customer_by_email
 )
 
 from src.db.models import Customer
+
+from src.db.credit_card_utils import fetch_card_information
 
 def insert_customer_information(first_name, last_name,number, email, street, state, country, id_number, doc_type, notes):
 
@@ -46,13 +48,12 @@ def insert_customer_information(first_name, last_name,number, email, street, sta
     return True
 
 
-def fetch_customer_information(full_name):
-    if not full_name:
+def fetch_customer_information(email):
+    if not email:
         return False
     
-    result = fetch_customer_by_full_name(full_name).to_dict("records")
-    return result 
-    
+    result = fetch_customer_by_email(email).to_dict("records")
+    return result
 
 
 

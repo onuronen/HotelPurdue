@@ -105,11 +105,11 @@ def fetch_customer_by_room_number(room_number):
     else:
         return None
 
-def fetch_customer_by_full_name(full_name):
+def fetch_customer_by_email(email):
     session = Session()
 
     try:
-        result = session.query(Customer).filter(Customer.full_name == full_name)
+        result = session.query(Customer).filter(Customer.cust_email == email)
 
     finally:
         session.close()
