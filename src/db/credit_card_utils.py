@@ -8,7 +8,8 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 from src.db.crud import (
     update_table,
     fetch_rows,
-    fetch_customer_by_card_number
+    fetch_customer_by_card_number,
+    fetch_card_by_full_name
 )
 
 from src.db.models import Credit_Card_Info
@@ -34,3 +35,9 @@ def insert_credit_card_information(full_name, card_number, exp_date, cvv):
     update_table(new_df, Credit_Card_Info)
     return True
 
+def fetch_card_information(full_name):
+    if not full_name:
+        return False
+    
+    result = fetch_card_by_full_name(full_name).to_dict("records")
+    return result

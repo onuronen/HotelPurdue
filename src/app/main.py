@@ -137,3 +137,9 @@ def make_app():
 
 
     return app
+
+@app.route("customer_lookup", methods=["POST"])
+    def lookup_customer_info():
+        full_name = request.headers.get("full_name")
+        return jsonify("success")
+

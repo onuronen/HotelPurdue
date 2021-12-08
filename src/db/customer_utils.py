@@ -10,7 +10,8 @@ sys.path.append(
 from src.db.crud import (
     update_table,
     fetch_rows,
-    fetch_customer_by_id
+    fetch_customer_by_id,
+    fetch_customer_by_full_name
 )
 
 from src.db.models import Customer
@@ -45,7 +46,12 @@ def insert_customer_information(first_name, last_name,number, email, street, sta
     return True
 
 
+def fetch_customer_information(full_name):
+    if not full_name:
+        return False
     
+    result = fetch_customer_by_full_name(full_name).to_dict("records")
+    return result 
     
 
 

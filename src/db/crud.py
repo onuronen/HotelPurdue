@@ -105,6 +105,38 @@ def fetch_customer_by_room_number(room_number):
     else:
         return None
 
+def fetch_customer_by_full_name(full_name):
+    session = Session()
+
+    try:
+        result = session.query(Customer).filter(Customer.full_name == full_name)
+
+    finally:
+        session.close()
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
+
+def fetch_card_by_full_name(full_name):
+    session = Session()
+
+    try:
+        result = session.query(Credit_Card_Info).filter(Credit_Card_Info.full_name == full_name)
+
+    finally:
+        session.close()
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
 
 create_tables()
 
