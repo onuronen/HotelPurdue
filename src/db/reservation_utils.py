@@ -10,6 +10,7 @@ sys.path.append(
 from src.db.crud import (
     update_table,
     fetch_rows,
+    fetch_reservation_by_start_date
 )
 
 from src.db.models import Reservation
@@ -32,3 +33,11 @@ def insert_reservation_information(full_name, start_date, end_date, reservation_
     new_df = pd.DataFrame(data)
     update_table(new_df, Reservation)
     return True
+
+
+def fetch_reservation_information(start_date):
+    if not start_date:
+        return False
+
+    reservation_df = fetch_reservation_by_start_date(start_date).to_dict("records")
+    return reservation_df

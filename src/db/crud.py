@@ -138,6 +138,23 @@ def fetch_card_by_full_name(full_name):
     else:
         return None
 
+def fetch_reservation_by_start_date(start_date):
+    session = Session()
+
+    try:
+        result = session.query(Reservation).filter(Reservation.start_date == start_date)
+
+    finally:
+        session.close()
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
+
 create_tables()
 
 if __name__ == '__main__':

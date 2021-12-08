@@ -145,11 +145,14 @@ def make_app():
 
 
     @app.route("/reservation_lookup", methods=["POST"])
-    def lookup_customer_info():
-        room_number = request.headers.get("room_number")
-        check_in = request.headers.get("check_in")
+    def lookup_reservation_info():
+        start_date = request.headers.get("check_in")
+        reservation_dict = fetch_reservation_information(start_date)[0]
 
-        return jsonify('a')
+        room_number = request.headers.get("room_number")
+        room_info_dict = fetch_room_information(room_number)[0]
+        room_info_dict.update(reservation_dict)
+        return jsonify(room_info_dict)
 
 
 
