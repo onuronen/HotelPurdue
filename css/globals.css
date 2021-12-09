@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:600");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
 @font-face {
   font-family: "Tahoma-Regular";
   font-style: normal;
@@ -12,17 +12,6 @@
   font-style: normal;
   font-weight: 700;
   src: url("fonts/Tahoma Bold.ttf") format("truetype");
-}
-:root {
-  --mdc-theme-background: #fff;
-  --mdc-theme-error: #b00020;
-  --mdc-theme-on-error: #fff;
-  --mdc-theme-on-primary: #fff;
-  --mdc-theme-on-secondary: #fff;
-  --mdc-theme-on-surface: #000;
-  --mdc-theme-primary: #4e6ffc;
-  --mdc-theme-secondary: #018786;
-  --mdc-theme-surface: #fff;
 }
 
 .screen textarea:focus,
@@ -59,6 +48,12 @@
 
 input:focus {
   outline: none;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
 }
 
 * {

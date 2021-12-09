@@ -1,0 +1,408 @@
+/* screen - reservation-information */
+
+.reservation-information {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 895px;
+  min-width: 1299px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.reservation-information .group-12-k9N6Nn {
+  background-color: transparent;
+  height: 75px;
+  left: calc(28.20% - 93px);
+  position: absolute;
+  top: calc(41.34% - 31px);
+  width: 331px;
+}
+
+.reservation-information .rectangle-50-zDhxG6 {
+  background-color: var(--white);
+  border-radius: 4px;
+  bottom: 0px;
+  height: 50px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.reservation-information .room-number-zDhxG6 {
+  background-color: transparent;
+  height: 21px;
+  left: 0px;
+  letter-spacing: 0.11px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 105px;
+}
+
+.reservation-information .enter-room-number-zDhxG6 {
+  background-color: transparent;
+  border: 0;
+  bottom: calc(20.75% - 5px);
+  height: 22px;
+  left: 7px;
+  letter-spacing: 0.05px;
+  line-height: 24px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 17px);
+}
+
+.reservation-information .enter-room-number-zDhxG6::placeholder {
+  color: #70707099;
+}
+
+.reservation-information .core-component-button-standard-k9N6Nn {
+  background-color: transparent;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  right: 30px;
+  top: 34px;
+  width: 65px;
+}
+
+.reservation-information .background-F80eAe {
+  background-color: var(--bright-red);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.reservation-information .back-F80eAe {
+  background-color: transparent;
+  bottom: calc(25.00% - 6px);
+  height: 24px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: calc(44.83% - 16px);
+  text-align: left;
+  white-space: nowrap;
+  width: 36px;
+}
+
+.reservation-information .signup-buton-k9N6Nn {
+  background-color: transparent;
+  bottom: calc(36.45% - 18px);
+  cursor: pointer;
+  height: 50px;
+  left: calc(28.28% - 93px);
+  position: absolute;
+  width: 330px;
+}
+
+.reservation-information .rectangle-148475-BBUqxS {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.reservation-information .hover-BBUqxS {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.reservation-information .hover-BBUqxS:hover {
+  opacity: 1;
+}
+
+.reservation-information .find-reservation-BBUqxS {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.50% - 64px);
+  text-align: center;
+  white-space: nowrap;
+  width: 130px;
+}
+
+.reservation-information .group-21-k9N6Nn {
+  background-color: transparent;
+  bottom: calc(34.73% - 145px);
+  height: 417px;
+  position: absolute;
+  right: calc(37.35% - 73px);
+  width: 196px;
+}
+
+.reservation-information .reservation-details-3tMinf {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.reservation-information .group-24-3tMinf {
+  background-color: transparent;
+  height: calc(100.00% - 41px);
+  left: 0px;
+  position: absolute;
+  top: 41px;
+  width: 166px;
+}
+
+.reservation-information .customer-name-8WJhSD {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% - 9px);
+}
+
+.reservation-information .number-of-guests-8WJhSD {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 46px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.reservation-information .room-number-8WJhSD {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(25.71% - 7px);
+  white-space: nowrap;
+  width: 136px;
+}
+
+.reservation-information .room-type-8WJhSD {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(37.71% - 10px);
+  white-space: nowrap;
+  width: 109px;
+}
+
+.reservation-information .check-in-date-8WJhSD {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(49.71% - 13px);
+  white-space: nowrap;
+  width: 131px;
+}
+
+.reservation-information .check-out-date-8WJhSD {
+  background-color: transparent;
+  bottom: calc(38.29% - 10px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 24px);
+}
+
+.reservation-information .repeat-grid-9-8WJhSD {
+  background-color: transparent;
+  bottom: 0px;
+  height: 120px;
+  left: 0px;
+  position: absolute;
+  width: calc(100.00% - 10px);
+}
+
+.reservation-information .x0-HxRgVv {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 160px;
+}
+
+.reservation-information .reservation-date-kO97E6 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.reservation-information .x1-HxRgVv {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 44px;
+  width: 64px;
+}
+
+.reservation-information .status-Uy8PEq {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.reservation-information .x2-HxRgVv {
+  background-color: transparent;
+  height: 24px;
+  left: 0px;
+  position: absolute;
+  top: 88px;
+  width: 59px;
+}
+
+.reservation-information .notes-x9RsJl {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.reservation-information .group-25-k9N6Nn {
+  background-color: transparent;
+  bottom: calc(46.71% - 35px);
+  height: 75px;
+  left: calc(28.20% - 93px);
+  position: absolute;
+  width: 331px;
+}
+
+.reservation-information .rectangle-50-xx7yJj {
+  background-color: var(--white);
+  border-radius: 4px;
+  bottom: 0px;
+  height: 50px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.reservation-information .check-in-date-xx7yJj {
+  background-color: transparent;
+  height: 21px;
+  left: 0px;
+  letter-spacing: 0.11px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 101px;
+}
+
+.reservation-information .enter-check-in-date-xx7yJj {
+  background-color: transparent;
+  border: 0;
+  bottom: calc(20.75% - 5px);
+  height: 22px;
+  left: 7px;
+  letter-spacing: 0.05px;
+  line-height: 24px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 17px);
+}
+
+.reservation-information .enter-check-in-date-xx7yJj::placeholder {
+  color: #70707099;
+}
+
+.reservation-information .reservation-information-k9N6Nn {
+  background-color: transparent;
+  height: 73px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  position: absolute;
+  right: calc(49.81% - 262px);
+  text-align: center;
+  top: calc(27.19% - 20px);
+  white-space: nowrap;
+  width: 526px;
+}
+
+.reservation-information .black-copy-k9N6Nn {
+  background-color: transparent;
+  height: 149px;
+  object-fit: cover;
+  position: absolute;
+  right: calc(49.90% - 167px);
+  top: 36px;
+  width: 335px;
+}

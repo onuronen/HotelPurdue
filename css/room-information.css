@@ -1,0 +1,281 @@
+/* screen - room-information */
+
+.room-information {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 895px;
+  min-width: 1299px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.room-information .group-12-5Fdaa3 {
+  background-color: transparent;
+  height: 75px;
+  left: calc(28.62% - 95px);
+  position: absolute;
+  top: calc(46.10% - 35px);
+  width: 331px;
+}
+
+.room-information .rectangle-50-hUC7Wv {
+  background-color: var(--white);
+  border-radius: 4px;
+  bottom: 0px;
+  height: 50px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.room-information .room-number-hUC7Wv {
+  background-color: transparent;
+  height: 21px;
+  left: 0px;
+  letter-spacing: 0.11px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 105px;
+}
+
+.room-information .enter-room-number-hUC7Wv {
+  background-color: transparent;
+  border: 0;
+  bottom: calc(20.75% - 5px);
+  height: 22px;
+  left: 7px;
+  letter-spacing: 0.05px;
+  line-height: 24px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 17px);
+}
+
+.room-information .enter-room-number-hUC7Wv::placeholder {
+  color: #70707099;
+}
+
+.room-information .core-component-button-standard-5Fdaa3 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  right: 30px;
+  top: 34px;
+  width: 65px;
+}
+
+.room-information .background-U6w5pt {
+  background-color: var(--bright-red);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.room-information .back-U6w5pt {
+  background-color: transparent;
+  bottom: calc(25.00% - 6px);
+  height: 24px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: calc(44.83% - 16px);
+  text-align: left;
+  white-space: nowrap;
+  width: 36px;
+}
+
+.room-information .signup-buton-5Fdaa3 {
+  background-color: transparent;
+  bottom: calc(44.02% - 22px);
+  cursor: pointer;
+  height: 50px;
+  left: calc(28.69% - 95px);
+  position: absolute;
+  width: 330px;
+}
+
+.room-information .rectangle-148475-geVpYy {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.room-information .hover-geVpYy {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.room-information .hover-geVpYy:hover {
+  opacity: 1;
+}
+
+.room-information .find-room-geVpYy {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.59% - 42px);
+  text-align: center;
+  white-space: nowrap;
+  width: 84px;
+}
+
+.room-information .group-21-5Fdaa3 {
+  background-color: transparent;
+  bottom: calc(43.39% - 119px);
+  height: 275px;
+  position: absolute;
+  right: calc(40.34% - 54px);
+  width: 134px;
+}
+
+.room-information .room-details-JoGBwq {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.room-information .group-24-JoGBwq {
+  background-color: transparent;
+  height: calc(100.00% - 41px);
+  left: 0px;
+  position: absolute;
+  top: 41px;
+  width: calc(100.00% - 2px);
+}
+
+.room-information .room-id-qMTnoo {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: 87px;
+}
+
+.room-information .room-type-qMTnoo {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(21.15% - 6px);
+  white-space: nowrap;
+  width: 109px;
+}
+
+.room-information .room-number-qMTnoo {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(41.35% - 11px);
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.room-information .rate-qMTnoo {
+  background-color: transparent;
+  bottom: calc(38.46% - 10px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 49px;
+}
+
+.room-information .occupancy-qMTnoo {
+  background-color: transparent;
+  bottom: calc(18.27% - 5px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 111px;
+}
+
+.room-information .status-qMTnoo {
+  background-color: transparent;
+  bottom: -4px;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 64px;
+}
+
+.room-information .room-information-5Fdaa3 {
+  background-color: transparent;
+  height: 73px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  position: absolute;
+  right: calc(49.83% - 197px);
+  text-align: center;
+  top: calc(27.19% - 20px);
+  white-space: nowrap;
+  width: 396px;
+}
+
+.room-information .black-copy-5Fdaa3 {
+  background-color: transparent;
+  height: 149px;
+  object-fit: cover;
+  position: absolute;
+  right: calc(49.90% - 167px);
+  top: 36px;
+  width: 335px;
+}

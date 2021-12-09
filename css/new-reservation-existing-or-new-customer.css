@@ -1,0 +1,253 @@
+/* screen - new-reservation-existing-or-new-customer */
+
+.new-reservation-existing-or-new-customer {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 895px;
+  min-width: 1299px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.new-reservation-existing-or-new-customer .core-component-button-standard-XPnWMx {
+  background-color: transparent;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  right: 30px;
+  top: 34px;
+  width: 65px;
+}
+
+.new-reservation-existing-or-new-customer .background-ImUXdx {
+  background-color: var(--bright-red);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.new-reservation-existing-or-new-customer .back-ImUXdx {
+  background-color: transparent;
+  bottom: calc(25.00% - 6px);
+  height: 24px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  right: calc(44.83% - 16px);
+  text-align: left;
+  white-space: nowrap;
+  width: 36px;
+}
+
+.new-reservation-existing-or-new-customer .signup-buton-XPnWMx {
+  background-color: transparent;
+  cursor: pointer;
+  height: 50px;
+  left: calc(36.75% - 90px);
+  position: absolute;
+  top: calc(36.92% - 18px);
+  width: 246px;
+}
+
+.new-reservation-existing-or-new-customer .rectangle-148475-4G9njo {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.new-reservation-existing-or-new-customer .hover-4G9njo {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.new-reservation-existing-or-new-customer .hover-4G9njo:hover {
+  opacity: 1;
+}
+
+.new-reservation-existing-or-new-customer .new-customer-4G9njo {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.24% - 56px);
+  text-align: center;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.new-reservation-existing-or-new-customer .rectangle-148479-4G9njo {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.new-reservation-existing-or-new-customer .hover-sJR2i4 {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.new-reservation-existing-or-new-customer .hover-sJR2i4:hover {
+  opacity: 1;
+}
+
+.new-reservation-existing-or-new-customer .new-customer-sJR2i4 {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.24% - 56px);
+  text-align: center;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.new-reservation-existing-or-new-customer .signup-buton-CvhExi {
+  background-color: transparent;
+  cursor: pointer;
+  height: 50px;
+  position: absolute;
+  right: calc(36.66% - 90px);
+  top: calc(36.92% - 18px);
+  width: 246px;
+}
+
+.new-reservation-existing-or-new-customer .rectangle-148475-bujm8L {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.new-reservation-existing-or-new-customer .hover-bujm8L {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.new-reservation-existing-or-new-customer .hover-bujm8L:hover {
+  opacity: 1;
+}
+
+.new-reservation-existing-or-new-customer .new-customer-bujm8L {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.24% - 56px);
+  text-align: center;
+  white-space: nowrap;
+  width: 114px;
+}
+
+.new-reservation-existing-or-new-customer .rectangle-148479-bujm8L {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.new-reservation-existing-or-new-customer .hover-C2TndR {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.new-reservation-existing-or-new-customer .hover-C2TndR:hover {
+  opacity: 1;
+}
+
+.new-reservation-existing-or-new-customer .existing-customer-bujm8L {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.07% - 68px);
+  text-align: center;
+  white-space: nowrap;
+  width: 138px;
+}
+
+.new-reservation-existing-or-new-customer .new-reservation-XPnWMx {
+  background-color: transparent;
+  height: 73px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  position: absolute;
+  right: calc(49.84% - 181px);
+  text-align: center;
+  top: calc(27.19% - 20px);
+  white-space: nowrap;
+  width: 364px;
+}
+
+.new-reservation-existing-or-new-customer .black-copy-XPnWMx {
+  background-color: transparent;
+  height: 149px;
+  object-fit: cover;
+  position: absolute;
+  right: calc(49.90% - 167px);
+  top: 36px;
+  width: 335px;
+}

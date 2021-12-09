@@ -16,7 +16,7 @@
   background-color: transparent;
   color: var(--dove-gray);
   font-family: var(--font-family-tahoma-regular);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xxxl);
   font-style: normal;
   font-weight: 400;
   height: 62px;
@@ -416,6 +416,57 @@
   width: calc(100.00% + 2px);
 }
 
+.generated-bill .signup-buton-qjpuqI {
+  background-color: transparent;
+  cursor: pointer;
+  height: 50px;
+  position: absolute;
+  right: calc(22.65% - 96px);
+  top: calc(33.66% - 17px);
+  width: 425px;
+}
+
+.generated-bill .rectangle-148475-rUgIG4 {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.generated-bill .hover-rUgIG4 {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.generated-bill .hover-rUgIG4:hover {
+  opacity: 1;
+}
+
+.generated-bill .check-out-customer-rUgIG4 {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(49.81% - 78px);
+  text-align: center;
+  white-space: nowrap;
+  width: 156px;
+}
+
 .generated-bill .black-copy-qjpuqI {
   background-color: transparent;
   height: 149px;
@@ -424,131 +475,4 @@
   position: absolute;
   top: 36px;
   width: 335px;
-}
-
-.generated-bill .button-raised-filled-qjpuqI {
-  background-color: transparent;
-  height: 50px;
-  position: absolute;
-  right: calc(32.52% - 98px);
-  top: calc(46.48% - 23px);
-  width: 300px;
-}
-
-.generated-bill .group-46-qjpuqI {
-  background-color: transparent;
-  height: 75px;
-  position: absolute;
-  right: calc(30.24% - 100px);
-  top: calc(33.55% - 25px);
-  width: 330px;
-}
-
-.generated-bill .full-name-0IlcOO {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 100%;
-}
-
-.generated-bill .rectangle-50-C1lp6Z {
-  background-color: var(--white);
-  border-radius: 4px;
-  bottom: 0px;
-  height: 50px;
-  left: 0px;
-  position: absolute;
-  width: 100%;
-}
-
-.generated-bill .room-number-C1lp6Z {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  letter-spacing: 0.11px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: 105px;
-}
-
-.generated-bill .enter-room-number-C1lp6Z {
-  background-color: transparent;
-  border: 0;
-  bottom: calc(20.75% - 5px);
-  height: 22px;
-  left: 8px;
-  letter-spacing: 0.05px;
-  line-height: 24px;
-  padding: 0;
-  position: absolute;
-  resize: none;
-  text-align: left;
-  white-space: nowrap;
-  width: calc(100.00% - 18px);
-}
-
-.generated-bill .enter-room-number-C1lp6Z::placeholder {
-  color: #70707099;
-}
-
-.generated-bill .group-12-qjpuqI {
-  background-color: transparent;
-  height: 75px;
-  position: absolute;
-  right: calc(30.17% - 100px);
-  top: calc(40.43% - 30px);
-  width: 331px;
-}
-
-.generated-bill .rectangle-50-5N20Z2 {
-  background-color: var(--white);
-  border-radius: 4px;
-  bottom: 0px;
-  height: 50px;
-  left: 0px;
-  position: absolute;
-  width: 100%;
-}
-
-.generated-bill .customer-full-name-5N20Z2 {
-  background-color: transparent;
-  height: 21px;
-  left: 0px;
-  letter-spacing: 0.11px;
-  line-height: 16px;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  white-space: nowrap;
-  width: 147px;
-}
-
-.generated-bill .enter-full-name-5N20Z2 {
-  background-color: transparent;
-  border: 0;
-  bottom: calc(20.75% - 5px);
-  height: 22px;
-  left: 7px;
-  letter-spacing: 0.05px;
-  line-height: 24px;
-  padding: 0;
-  position: absolute;
-  resize: none;
-  text-align: left;
-  white-space: nowrap;
-  width: calc(100.00% - 17px);
-}
-
-.generated-bill .enter-full-name-5N20Z2::placeholder {
-  color: #70707099;
-}
-
-.button-raised-filled-qjpuqI {
-  height: auto !important;
-  width: auto !important;
 }

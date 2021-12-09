@@ -1,0 +1,137 @@
+/* screen - login */
+
+.login {
+  background-color: #bce0fd;
+  height: 1080px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.login .group-33-b8DrbD {
+  background-color: transparent;
+  height: 1200px;
+  left: 360px;
+  position: absolute;
+  top: -239px;
+  width: 1200px;
+}
+
+.login .star-hotel-logostransparent-vLIRLw {
+  background-color: transparent;
+  height: 105.00%;
+  left: -2.50%;
+  object-fit: cover;
+  position: absolute;
+  top: -1.67%;
+  width: 105.00%;
+}
+
+.login .welcome-to-the-he-button-below-vLIRLw {
+  background-color: transparent;
+  bottom: calc(27.67% - 11px);
+  color: var(--dove-gray);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+  height: 38px;
+  left: calc(49.74% - 306px);
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 615px;
+}
+
+.login .group-20-vLIRLw {
+  background-color: transparent;
+  bottom: calc(18.32% - 10px);
+  height: 54px;
+  left: calc(43.71% - 149px);
+  position: absolute;
+  width: 342px;
+}
+
+.login .rectangle-50-rFiPyc {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.login .employee-id-rFiPyc {
+  background-color: transparent;
+  border: 0;
+  bottom: calc(40.62% - 9px);
+  height: 22px;
+  left: 7px;
+  letter-spacing: 0.05px;
+  line-height: 24px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 17px);
+}
+
+.login .employee-id-rFiPyc::placeholder {
+  color: #70707099;
+}
+
+.login .signup-buton-b8DrbD {
+  background-color: transparent;
+  cursor: pointer;
+  height: 50px;
+  left: 1101px;
+  position: absolute;
+  top: 699px;
+  width: 111px;
+}
+
+.login .rectangle-148475-vawCmW {
+  background-color: var(--blueberry);
+  border-radius: 4px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.login .hover-vawCmW {
+  background-color: var(--royal-blue);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.login .hover-vawCmW:hover {
+  opacity: 1;
+}
+
+.login .login-vawCmW {
+  background-color: transparent;
+  bottom: calc(28.26% - 8px);
+  height: 27px;
+  letter-spacing: 0.13px;
+  line-height: 18px;
+  position: absolute;
+  right: calc(47.76% - 21px);
+  text-align: center;
+  white-space: nowrap;
+  width: 44px;
+}

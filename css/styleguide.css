@@ -1,0 +1,86 @@
+:root { 
+  --blueberry: #4e6ffc;
+  --bright-red: #aa0000;
+  --dove-gray: #707070;
+  --iron: #d4d4d5;
+  --royal-blue: #3e5bd6;
+  --scarpa-flow: #555558;
+  --white: #ffffff;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 25px;
+  --font-size-xxxl: 50px;
+ 
+  --font-family-source_sans_pro: "Source Sans Pro", Helvetica;
+  --font-family-tahoma-bold: "Tahoma-Bold", Helvetica;
+  --font-family-tahoma-regular: "Tahoma-Regular", Helvetica;
+}
+.tahoma-regular-normal-dove-gray-20px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-tahoma-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tahoma-regular-normal-dove-gray-16px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-tahoma-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tahoma-regular-normal-scarpa-flow-16px {
+  color: var(--scarpa-flow);
+  font-family: var(--font-family-tahoma-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sourcesanspro-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sourcesanspro-semi-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.sourcesanspro-semi-bold-dove-gray-50px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.tahoma-bold-dove-gray-20px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-tahoma-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.border-1-5px-iron {
+  border: 1.5px solid var(--iron);
+}
+
+.border-2px-blueberry {
+  border: 2px solid var(--blueberry);
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
