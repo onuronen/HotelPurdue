@@ -56,6 +56,11 @@ def make_app():
     def customer_information_page():
         return render_template('customer-information.html')
 
+    @app.route("/generated-bill.html")
+    def generate_bill_page():
+        return render_template('generated-bill.html')
+
+
     #customer, reservation, info for other tables in different pages, otherwise lot of info
     @app.route("/check_in_customer", methods=["POST"])
     def check_in_customer_info():
