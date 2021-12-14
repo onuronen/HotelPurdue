@@ -11,7 +11,8 @@ from src.db.crud import (
     update_table,
     fetch_rows,
     fetch_customer_by_id,
-    fetch_customer_by_email
+    fetch_customer_by_email,
+    fetch_customer_by_name
 )
 
 from src.db.models import Customer
@@ -54,6 +55,16 @@ def fetch_customer_information(email):
     
     result = fetch_customer_by_email(email).to_dict("records")
     return result
+
+
+def fetch_customer_information_by_name(first_name, last_name):
+    if not first_name or not last_name:
+        return False
+    
+    result = fetch_customer_by_name(first_name, last_name).to_dict("records")
+    return result
+
+
 
 
 

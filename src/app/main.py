@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.db.crud import fetch_customer_by_id, fetch_customer_by_card_number
-from src.db.customer_utils import insert_customer_information, fetch_customer_information
+from src.db.customer_utils import insert_customer_information, fetch_customer_information, fetch_customer_information_by_name
 from src.db.credit_card_utils import insert_credit_card_information, fetch_card_information
 from src.db.room_information_utils import insert_room_information, fetch_room_information
 from src.db.reservation_utils import insert_reservation_information,fetch_reservation_information
@@ -152,6 +152,25 @@ def make_app():
         room_number = request.headers.get("room_number")
         room_info_dict = fetch_room_information(room_number)[0]
         room_info_dict.update(reservation_dict)
+        return jsonify(room_info_dict)
+
+
+    @app.route("/check_out_customer", methods=["POST"])
+    def generate_bill():
+        room_number = request.headers.get("room_number")
+        room_info_dict = fetch_room_information(room_number)[0]
+
+        full_name = request.headers.get("full_name")
+        name = full_name.split(" ")
+        first_name = name[0]
+        last_name = name[1]
+
+        customer_dict = fetch_customer_information_by_name(first_name, last_name)
+        room_info_dict.update(customer_dict)
+        room_info_dict['room_charge'] = 350
+        room_info_dict['tax'] = 25
+        room_info_dict['total'] = room_info_dict['room_charge'] + room_info_dict['tax']
+
         return jsonify(room_info_dict)
 
 

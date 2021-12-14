@@ -155,7 +155,24 @@ def fetch_reservation_by_start_date(start_date):
         return None
 
 
-create_tables()
+def fetch_customer_by_name(first_name, last_name):
+    session = Session()
+
+    try:
+        result = session.query(Customer).filter(Customer.cust_fname == first_name).filter(Customer.cust_lname == last_name)
+
+    finally:
+        session.close()
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
+
+#create_tables()
 
 if __name__ == '__main__':
     pass
