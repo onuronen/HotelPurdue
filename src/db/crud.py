@@ -172,6 +172,75 @@ def fetch_customer_by_name(first_name, last_name):
         return None
 
 
+def fetch_reservation_by_fullname(full_name):
+    session = Session()
+
+    try:
+        result = session.query(Reservation).filter(Reservation.full_name == full_name)
+
+    finally:
+        session.close()
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
+
+
+
+from sqlalchemy import asc
+def rooms_by_ascending():
+    session = Session()
+
+    try:
+        result = session.query(Room_Information).order_by(asc(Room_Information.room_number))
+    finally:
+        session.close()
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
+
+from sqlalchemy import desc
+def reservation_by_desc():
+    session = Session()
+
+    try:
+        result = session.query(Reservation).order_by(desc(Reservation.guest_number))
+    finally:
+        session.close()
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
+
+
+def delete_by_fullname(BaseClass, full_name):
+    session = Session()
+    session.query(BaseClass).filter(BaseClass.full_name == full_name).delete()
+    session.commit()
+    session.close()
+
+def delete_by_name_customer(first_name, last_name):
+    session = Session()
+    session.query(Customer).filter(Customer.cust_fname == first_name).filter(Customer.cust_lname == last_name).delete()
+    session.commit()
+    session.close()
+
+print(tryout5())
+
+
 #create_tables()
 
 if __name__ == '__main__':

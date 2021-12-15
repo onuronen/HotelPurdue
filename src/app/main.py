@@ -9,11 +9,12 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.db.crud import fetch_customer_by_id, fetch_customer_by_card_number
+from src.db.models import Customer, Credit_Card_Info, Bill, Reservation, Employee, Room_Information
+from src.db.crud import fetch_customer_by_id, fetch_customer_by_card_number, delete_by_fullname, delete_by_name_customer
 from src.db.customer_utils import insert_customer_information, fetch_customer_information, fetch_customer_information_by_name
 from src.db.credit_card_utils import insert_credit_card_information, fetch_card_information
 from src.db.room_information_utils import insert_room_information, fetch_room_information
-from src.db.reservation_utils import insert_reservation_information,fetch_reservation_information
+from src.db.reservation_utils import insert_reservation_information,fetch_reservation_information, fetch_reservation_information_by_name
 from src.db.employee_utils import insert_employee_information
 
 def make_app():
@@ -166,15 +167,27 @@ def make_app():
         room_info_dict = fetch_room_information(room_number)[0]
 
         full_name = request.headers.get("full_name")
+        reservation_dict = fetch_reservation_information_by_name(full_name)[0]
+        print(reservation_dict)
+
         name = full_name.split(" ")
         first_name = name[0]
         last_name = name[1]
 
         customer_dict = fetch_customer_information_by_name(first_name, last_name)[0]
         room_info_dict.update(customer_dict)
-        room_info_dict['room_charge'] = 350
-        room_info_dict['tax'] = 25
+        room_info_dict.update(reservation_dict)
+
+        room_info_dict['room_charge'] = room_info_dict['price']
+        room_info_dict['tax'] = room_info_dict['price'] * 0.25
         room_info_dict['total'] = room_info_dict['room_charge'] + room_info_dict['tax']
+
+        delete_by_name_customer(first_name, last_name)
+        delete_by_fullname(Credit_Card_Info, full_name)
+        delete_by_fullname(Reservation, full_name)
+        delete_by_fullname(Room_Information, full_name)
+        
+
         return jsonify(room_info_dict)
 
 

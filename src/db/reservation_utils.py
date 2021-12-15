@@ -10,7 +10,8 @@ sys.path.append(
 from src.db.crud import (
     update_table,
     fetch_rows,
-    fetch_reservation_by_start_date
+    fetch_reservation_by_start_date,
+    fetch_reservation_by_fullname
 )
 
 from src.db.models import Reservation
@@ -40,4 +41,12 @@ def fetch_reservation_information(start_date):
         return False
 
     reservation_df = fetch_reservation_by_start_date(start_date).to_dict("records")
+    return reservation_df
+
+
+def fetch_reservation_information_by_name(full_name):
+    if not full_name:
+        return False
+
+    reservation_df = fetch_reservation_by_fullname(full_name).to_dict("records")
     return reservation_df

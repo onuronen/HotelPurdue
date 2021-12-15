@@ -34,8 +34,8 @@ document.querySelector("#customer_check_out").addEventListener("click", function
         
         document.querySelector("#room_numbers").innerText=data.room_number
         document.querySelector("#room_types").innerText=data.room_type
-        //document.querySelector("#check_ins").innerText=data.
-        //document.querySelector("#check_outs").innerText=data.cust_state
+        document.querySelector("#check_ins").innerText=data.start_date
+        document.querySelector("#check_outs").innerText=data.end_date
 
         document.querySelector("#room_charges").innerText=data.room_charge
         //document.querySelector("#bar_charges").innerText=data.room_type
