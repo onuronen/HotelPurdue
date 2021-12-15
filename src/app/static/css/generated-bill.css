@@ -175,7 +175,7 @@
   width: 80px;
 }
 
-.generated-bill .credit-card-number-0000-jlNsBF {
+.generated-bill .credit-card-number-jlNsBF {
   background-color: transparent;
   bottom: 3px;
   height: 26px;
@@ -185,7 +185,133 @@
   position: absolute;
   text-align: left;
   white-space: nowrap;
-  width: calc(100.00% - 51px);
+  width: 197px;
+}
+
+.generated-bill .group-55-Hjrlza {
+  background-color: transparent;
+  height: calc(100.00% - 57px);
+  position: absolute;
+  right: calc(47.09% - 5px);
+  top: 50px;
+  width: 11px;
+}
+
+.generated-bill .x1-GYXIj9 {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.generated-bill .x2-GYXIj9 {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 44px;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .x3-GYXIj9 {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(25.75% - 7px);
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .x4-GYXIj9 {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(38.32% - 10px);
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .x5-GYXIj9 {
+  background-color: transparent;
+  bottom: calc(49.10% - 13px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .x6-GYXIj9 {
+  background-color: transparent;
+  bottom: calc(36.53% - 9px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .x7-GYXIj9 {
+  background-color: transparent;
+  bottom: calc(23.95% - 6px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .x8-GYXIj9 {
+  background-color: transparent;
+  bottom: 38px;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .x9-GYXIj9 {
+  background-color: transparent;
+  bottom: -4px;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .generated-bill .date-qjpuqI {
@@ -201,27 +327,18 @@
   width: 50px;
 }
 
-.generated-bill .repeat-grid-8-qjpuqI {
-  background-color: transparent;
-  height: 210px;
-  position: absolute;
-  right: calc(22.83% - 97px);
-  top: calc(18.90% - 40px);
-  width: 423px;
-}
-
-.generated-bill .group-3-lxR3Jj {
+.generated-bill .group-3-qjpuqI {
   background-color: transparent;
   height: 212px;
-  left: 0px;
-  position: relative;
-  top: -2px;
+  position: absolute;
+  right: calc(22.83% - 97px);
+  top: calc(18.77% - 40px);
   width: 423px;
 }
 
-.generated-bill .reservation-details-aQD3Kx {
+.generated-bill .reservation-details-mOYLvc {
   background-color: transparent;
-  height: auto;
+  height: 26px;
   left: 0px;
   letter-spacing: 0.00px;
   line-height: 20px;
@@ -229,19 +346,19 @@
   text-align: left;
   top: 2px;
   white-space: nowrap;
-  width: auto;
+  width: 198px;
 }
 
-.generated-bill .group-4-aQD3Kx {
+.generated-bill .group-4-mOYLvc {
   background-color: transparent;
-  height: 168px;
+  height: calc(100.00% - 44px);
   left: 0px;
   position: absolute;
   top: 44px;
-  width: 423px;
+  width: 100%;
 }
 
-.generated-bill .rectangle-148477-2PMET0 {
+.generated-bill .rectangle-148477-CfKYj3 {
   background-color: var(--white);
   height: 100%;
   left: 0px;
@@ -250,7 +367,7 @@
   width: 100%;
 }
 
-.generated-bill .room-number-2PMET0 {
+.generated-bill .room-number-CfKYj3 {
   background-color: transparent;
   height: 26px;
   left: 12px;
@@ -263,7 +380,7 @@
   width: 136px;
 }
 
-.generated-bill .room-type-2PMET0 {
+.generated-bill .room-type-CfKYj3 {
   background-color: transparent;
   height: 26px;
   left: 12px;
@@ -276,7 +393,7 @@
   width: 109px;
 }
 
-.generated-bill .check-in-date-2PMET0 {
+.generated-bill .check-in-date-CfKYj3 {
   background-color: transparent;
   bottom: calc(33.80% - 9px);
   height: 26px;
@@ -286,10 +403,10 @@
   position: absolute;
   text-align: left;
   white-space: nowrap;
-  width: 124px;
+  width: 131px;
 }
 
-.generated-bill .check-out-date-2PMET0 {
+.generated-bill .check-out-date-CfKYj3 {
   background-color: transparent;
   bottom: 6px;
   height: 26px;
@@ -302,7 +419,68 @@
   width: 144px;
 }
 
-.generated-bill .group-3-qjpuqI {
+.generated-bill .group-56-mOYLvc {
+  background-color: transparent;
+  bottom: 10px;
+  height: 150px;
+  left: calc(42.64% - 9px);
+  position: absolute;
+  width: 22px;
+}
+
+.generated-bill .x10-UnPnwU {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.generated-bill .x11-UnPnwU {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: calc(35.48% - 9px);
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .x12-UnPnwU {
+  background-color: transparent;
+  bottom: calc(30.65% - 8px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .x13-UnPnwU {
+  background-color: transparent;
+  bottom: -4px;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .group-3-Hefdbv {
   background-color: transparent;
   bottom: calc(40.31% - 102px);
   height: 252px;
@@ -311,7 +489,7 @@
   width: 994px;
 }
 
-.generated-bill .rectangle-148478-mOYLvc {
+.generated-bill .rectangle-148478-b2PSEo {
   background-color: var(--white);
   height: calc(100.00% - 38px);
   left: 0px;
@@ -320,7 +498,7 @@
   width: 100%;
 }
 
-.generated-bill .charges-mOYLvc {
+.generated-bill .charges-b2PSEo {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -333,7 +511,7 @@
   width: 84px;
 }
 
-.generated-bill .group-1-mOYLvc {
+.generated-bill .group-1-b2PSEo {
   background-color: transparent;
   height: 110px;
   left: 14px;
@@ -342,7 +520,7 @@
   width: 172px;
 }
 
-.generated-bill .room-charge-mLzhAB {
+.generated-bill .room-charge-lL2Xz2 {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -355,7 +533,7 @@
   width: 129px;
 }
 
-.generated-bill .bar-charge-mLzhAB {
+.generated-bill .bar-charge-lL2Xz2 {
   background-color: transparent;
   bottom: calc(46.43% - 12px);
   height: 26px;
@@ -368,7 +546,7 @@
   width: 107px;
 }
 
-.generated-bill .additional-charges-mLzhAB {
+.generated-bill .additional-charges-lL2Xz2 {
   background-color: transparent;
   bottom: -4px;
   height: 26px;
@@ -381,7 +559,7 @@
   width: calc(100.00% + 2px);
 }
 
-.generated-bill .group-2-mOYLvc {
+.generated-bill .group-2-b2PSEo {
   background-color: transparent;
   bottom: 14px;
   height: 67px;
@@ -390,7 +568,7 @@
   width: 67px;
 }
 
-.generated-bill .tax-iKG7B6 {
+.generated-bill .tax-CFP0qj {
   background-color: transparent;
   height: 26px;
   left: 0px;
@@ -403,7 +581,7 @@
   width: 41px;
 }
 
-.generated-bill .total-iKG7B6 {
+.generated-bill .total-CFP0qj {
   background-color: transparent;
   bottom: -4px;
   height: 26px;
@@ -414,6 +592,89 @@
   text-align: left;
   white-space: nowrap;
   width: calc(100.00% + 2px);
+}
+
+.generated-bill .group-57-b2PSEo {
+  background-color: transparent;
+  height: 110px;
+  left: calc(20.78% - 5px);
+  position: absolute;
+  top: calc(29.58% - 33px);
+  width: 22px;
+}
+
+.generated-bill .x13-jnXB40 {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.generated-bill .x14-jnXB40 {
+  background-color: transparent;
+  bottom: calc(46.43% - 12px);
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .x15-jnXB40 {
+  background-color: transparent;
+  bottom: -4px;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.generated-bill .group-58-b2PSEo {
+  background-color: transparent;
+  bottom: 14px;
+  height: 67px;
+  left: calc(20.78% - 5px);
+  position: absolute;
+  width: 22px;
+}
+
+.generated-bill .x16-Uvcsy8 {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+
+.generated-bill .x17-Uvcsy8 {
+  background-color: transparent;
+  bottom: -4px;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .generated-bill .black-copy-qjpuqI {
