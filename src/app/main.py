@@ -170,12 +170,11 @@ def make_app():
         first_name = name[0]
         last_name = name[1]
 
-        customer_dict = fetch_customer_information_by_name(first_name, last_name)
+        customer_dict = fetch_customer_information_by_name(first_name, last_name)[0]
         room_info_dict.update(customer_dict)
         room_info_dict['room_charge'] = 350
         room_info_dict['tax'] = 25
         room_info_dict['total'] = room_info_dict['room_charge'] + room_info_dict['tax']
-
         return jsonify(room_info_dict)
 
 
