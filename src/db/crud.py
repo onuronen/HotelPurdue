@@ -224,6 +224,62 @@ def reservation_by_desc():
     else:
         return None
 
+from sqlalchemy import func
+def count_all_customers():
+    session = Session()
+
+    try:
+        result = session.query(func.count(Customer.customer_id))
+    finally:
+        session.close()
+
+    print(result)
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
+from sqlalchemy import func
+def count_customerids_groupby_country():
+    session = Session()
+
+    try:
+        result = session.query(Customer.cust_country, func.count(Customer.customer_id)).group_by(Customer.cust_country)
+    finally:
+        session.close()
+
+    print(result)
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
+
+from sqlalchemy import func
+def subquery_get_suite_rooms():
+    session = Session()
+
+    try:
+        subquery = session.query(Room_Information.room_number).filter(Room_Information.room_type == "suite").subquery()
+        result = session.query(Room_Information).filter(Room_Information.room_number.in_(subquery))
+    finally:
+        session.close()
+
+    print(result)
+
+    if result is not None:
+        df = pd.read_sql(result.statement, result.session.bind)
+        return df
+
+    else:
+        return None
+
 
 
 def delete_by_fullname(BaseClass, full_name):
@@ -238,7 +294,7 @@ def delete_by_name_customer(first_name, last_name):
     session.commit()
     session.close()
 
-print(tryout5())
+#print(tryout5())
 
 
 #create_tables()
